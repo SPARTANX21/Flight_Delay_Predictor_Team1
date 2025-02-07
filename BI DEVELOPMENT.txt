@@ -1,0 +1,26 @@
+BI DEVELOPMENT
+1.
+Converting CRSDepTime column from INT to time column
+DAX Query =
+CSRDEPTIMENEW = IF (
+LEN ( Flight[CRSDepTime] ) = 4,
+LEFT ( Flight[CRSDepTime], 2 ) & ":"
+& RIGHT ( Flight[CRSDepTime], 2 ),
+LEFT ( Flight[CRSDepTime], 1 ) & ":"
+& RIGHT ( Flight[CRSDepTime], 2 )
+)
+Need to convert likewise column to same format viz.
+-
+DepTime – Done
+-
+ArrTime - Done
+-
+CRSArrTime – Done
+-
+WheelsOn – Done
+-
+WheelsOff – Done
+Faced problem regarding a timestamp as ‘2400’ in DepTime column, now 2400 sahll be showed as ‘0000’, we have only one case im sample, hence filtering that out since time conversion gets stuck due to ‘2400’ time, same is done for ‘ArrTime’, ‘WheelsOff’, ‘WheelsOn’ and ‘CRSArrTime’ as there is no workaround since that gets to next and it wont make sense towards analysis.
+Once above columns are ready, we removed standard columns which were in INT Type.
+2.
+Removing Quarter, year, Month, and Day columns as they’re redundant since we have ‘FlightDate’ column which created Hierarchy automatically.
