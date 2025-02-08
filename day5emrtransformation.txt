@@ -1,0 +1,336 @@
+df = spark.read.parquet("s3://group1projectbucket2/output/Combined_Flights_2022.parquet")
+df.show()
+
+
+from pyspark.sql.functions import col, sum
+
+# Get null counts for each column
+null_counts = df.select([sum(col(c).isNull().cast("int")).alias(c) for c in df.columns]).collect()[0].asDict()
+
+# Format the output
+formatted_output = [f"{col_name} = {count}" for col_name, count in null_counts.items()]
+
+# Print as a list
+print(formatted_output)
+
+
+
+df = df.dropna(how="any")
+
+df_clean.count()
+
+null_counts = df.select([sum(col(c).isNull().cast("int")).alias(c) for c in df.columns]).collect()[0].asDict()
+
+# Format the output
+formatted_output = [f"{col_name} = {count}" for col_name, count in null_counts.items()]
+
+# Print as a list
+print(formatted_output)
+
+
+
+
+df = df.drop("__index_level_0__")
+
+
+
+df.unpersist()
+del df
+
+
+
+
+
+
+df.coalesce(1).write.mode("append").parquet("s3://group1projectbucket2/cleanparquet/")
+
+
+
+
+
+
+
+
+bucket_name = "group1projectbucket2"
+folder_path = "cleanparquet/"
+output_path = f"s3a://{bucket_name}/merged-output/"
+
+parquet_files = [
+    f"s3a://{bucket_name}/{folder_path}2018.snappy.parquet",
+    f"s3a://{bucket_name}/{folder_path}2019.snappy.parquet",
+    f"s3a://{bucket_name}/{folder_path}2020.snappy.parquet",
+    f"s3a://{bucket_name}/{folder_path}2021.snappy.parquet",
+    f"s3a://{bucket_name}/{folder_path}2022.snappy.parquet"
+]
+
+df = spark.read.parquet(*parquet_files)
+df.coalesce(1).write.mode("append").parquet(output_path)
+
+
+
+merged_df.coalesce(1).write.mode("append").parquet(output_path)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+bucket_name = "group1projectbucket2"
+folder_path = "cleanparquet"
+output_path = f"s3a://{bucket_name}/merged-output/"
+
+# Define a common schema
+common_schema = StructType([
+    StructField("DivAirportLandings", DoubleType(), True),  # Ensure this matches the expected type
+    # Add other columns here with their expected data types
+])
+
+# List of Parquet files in the desired order
+parquet_files = [
+    f"s3a://{bucket_name}/{folder_path}2018.snappy.parquet",
+    f"s3a://{bucket_name}/{folder_path}2019.snappy.parquet",
+    f"s3a://{bucket_name}/{folder_path}2020.snappy.parquet",
+    f"s3a://{bucket_name}/{folder_path}2021.snappy.parquet",
+    f"s3a://{bucket_name}/{folder_path}2022.snappy.parquet"
+]
+
+dfs = []
+for file in parquet_files:
+    df = spark.read.schema(common_schema).parquet(file)
+    dfs.append(df)
+
+# Combine all DataFrames into one
+merged_df = dfs[0]
+for df in dfs[1:]:
+    merged_df = merged_df.union(df)
+
+# Write the merged DataFrame to the output location
+merged_df.coalesce(1).write.mode("append").parquet(output_path)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+from pyspark.sql.functions import col, sum
+bucket_name = "group1projectbucket2"
+folder_path = "cleanparquet/"
+output_path = f"s3a://{bucket_name}/merged-output/"
+
+# List of Parquet files in the desired order
+parquet_files = [
+    f"s3a://{bucket_name}/{folder_path}2018.snappy.parquet",
+    f"s3a://{bucket_name}/{folder_path}2019.snappy.parquet",
+    f"s3a://{bucket_name}/{folder_path}2020.snappy.parquet",
+    f"s3a://{bucket_name}/{folder_path}2021.snappy.parquet",
+    f"s3a://{bucket_name}/{folder_path}2022.snappy.parquet"
+]
+
+# Read and cast the column to ensure consistency
+dfs = []
+for file in parquet_files:
+    df = spark.read.parquet(file)
+    
+    # Cast "DivAirportLandings" to double to ensure uniformity
+    if "DivAirportLandings" in df.columns:
+        df = df.withColumn("DivAirportLandings", col("DivAirportLandings").cast("double"))
+    
+    dfs.append(df)
+
+# Merge all DataFrames
+merged_df = dfs[0]
+for df in dfs[1:]:
+    merged_df = merged_df.unionByName(df)
+
+# Write the merged DataFrame as a single Parquet file
+merged_df.coalesce(1).write.mode("append").parquet(output_path)
+
+
+
+
+
+
+
+
+
+
+
+df = spark.read.parquet("s3://group1projectbucket2/merged-output/combinedparquet.snappy.parquet")
+
+df_2018 = df.filter(year(col("FlightDate")) == 2018)
+
+
+df_2018 = df_2018.withColumnRenamed("CRSDepTime", "SchdDepTime") \
+                 .withColumnRenamed("CRSElapsedTime", "SchdElapsedTime") \
+                 .withColumnRenamed("CRSArrTime", "SchdArrTime")
+
+
+
+df_2018 = df_2018.withColumnRenamed("CRSArrTime", "SchdArrTime")
+
+
+
+
+
+
+
+
+
+
+from pyspark.sql import functions as F
+from pyspark.sql.types import BooleanType, StringType
+
+
+
+# Process the DataFrame
+df_2018 = df_2018.withColumn("SchdDepTime", F.lpad(F.col("SchdDepTime").cast("string"), 4, "0")) \
+    .withColumn("SchdDepHour", F.col("SchdDepTime").substr(1, 2).cast("int")) \
+    .withColumn("SchdDepTimeOfDay", 
+        F.when((F.col("SchdDepHour") >= 0) & (F.col("SchdDepHour") < 6), "Night")
+         .when((F.col("SchdDepHour") >= 6) & (F.col("SchdDepHour") < 12), "Morning")
+         .when((F.col("SchdDepHour") >= 12) & (F.col("SchdDepHour") < 18), "Afternoon")
+         .otherwise("Evening")) \
+    .withColumn("IsHoliday", is_holiday_udf(F.col("FlightDate"))) \
+    .withColumn("DelayCategory",
+        F.when(F.col("ArrDelayMinutes") < 15, "No Delay")
+         .when((F.col("ArrDelayMinutes") >= 15) & (F.col("ArrDelayMinutes") < 60), "Short Delay")
+         .when((F.col("ArrDelayMinutes") >= 60) & (F.col("ArrDelayMinutes") < 120), "Medium Delay")
+         .when((F.col("ArrDelayMinutes") >= 120) & (F.col("ArrDelayMinutes") < 180), "Long Delay")
+         .otherwise("Very Long Delay"))
+
+# Optional: Show schema verification
+df_2018.printSchema()
+
+# Optional: Show sample data
+df_2018.select("SchdDepTime", "SchdDepHour", "SchdDepTimeOfDay", "IsHoliday", "DelayCategory").show(5)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+df = spark.read.parquet("s3://group1projectbucket2/merged-output/combinedparquet.snappy.parquet")
+
+from pyspark.sql.functions import col, year
+
+df_2018 = df.filter(year(col("FlightDate")) == 2018)
+
+df_2018 = df_2018.drop("Cancelled", "Diverted")
+
+
+df_2018 = df_2018.withColumnRenamed("CRSDepTime", "SchdDepTime") \
+                  .withColumnRenamed("CRSElapsedTime", "SchdElapsedTime") \
+                  .withColumnRenamed("CRSArrTime", "SchdArrTime")
+
+
+from pyspark.sql import functions as F
+
+df_2018 = df_2018.withColumn("SchdDepTime", F.lpad(F.col("SchdDepTime").cast("string"), 4, "0")) \
+     .withColumn("SchdDepHour", F.col("SchdDepTime").substr(1, 2).cast("int")) \
+     .withColumn("SchdDepTimeOfDay",
+         F.when((F.col("SchdDepHour") >= 0) & (F.col("SchdDepHour") < 6), "Night")
+          .when((F.col("SchdDepHour") >= 6) & (F.col("SchdDepHour") < 12), "Morning")
+          .when((F.col("SchdDepHour") >= 12) & (F.col("SchdDepHour") < 18), "Afternoon")
+          .otherwise("Evening")) \
+     .withColumn("DelayCategory",
+         F.when(F.col("ArrDelayMinutes") < 15, "No Delay")
+          .when((F.col("ArrDelayMinutes") >= 15) & (F.col("ArrDelayMinutes") < 60), "Short Delay")
+          .when((F.col("ArrDelayMinutes") >= 60) & (F.col("ArrDelayMinutes") < 120), "Medium Delay")
+          .when((F.col("ArrDelayMinutes") >= 120) & (F.col("ArrDelayMinutes") < 180), "Long Delay")
+          .otherwise("Very Long Delay"))
+
+
+
+
+
+from pyspark.sql.types import BooleanType, StringType
+
+
+
+df_2018.select("SchdDepTime", "SchdDepHour", "SchdDepTimeOfDay", "DelayCategory").show(5)
+
+df_2018 = df_2018.withColumn("IsWeekend", F.when(F.col("DayOfWeek").isin([6, 7]), 1).otherwise(0))
+
+
+df_2018.select("DayOfWeek", "IsWeekend").show(10)
+
+airport_congestion_df = df_2018.groupBy("OriginAirportID", "SchdDepHour").agg(F.count("FlightDate").alias("AirportCongestion"))
+df_2018 = df_2018.join(airport_congestion_df, on=["OriginAirportID", "SchdDepHour"], how="left")
+df_2018.select("OriginAirportID", "SchdDepHour", "AirportCongestion").show(10)
+
+df_2018.count()
+
+
+
+
+df_2018.coalesce(1).write.mode("append").parquet("s3:a//group1projectbucket2/intermediate/")
+
+
+
+
+
+
+
+
+
+
+
+
