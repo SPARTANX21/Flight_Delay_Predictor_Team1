@@ -5,7 +5,7 @@
 
 Flight delays and cancellations have been a persistent challenge in the aviation industry, causing widespread disruptions, financial losses, and reducing customer satisfaction. Understanding the factors that contribute to these delays is essential for improving operational efficiency and enhancing the travel experience.
 
-This project aims to develop a machine learning model that predicts the probability of flight delays. By analyzing historical flight data, key variables such as airline performance, departure schedules, and airport traffic will be used to provide accurate and actionable predictions. The ultimate goal is to empower passengers to make informed travel decisions while helping airlines optimize their operations.
+This project aims to develop a machine learning model that predicts the probability of flight delays. By analyzing historical flight data, key variables such as airline performance, departure schedules, and airport traffic will be used to provide accurate predictions. The ultimate goal is to empower passengers to make informed travel decisions while helping airlines optimize their operations.
 
 ## Project Overview
 
