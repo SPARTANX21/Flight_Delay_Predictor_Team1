@@ -1,8 +1,41 @@
 import streamlit as st
 import pandas as pd
 import pickle
+import base64
 
-# Sample list of airports (Add more or modify as needed)
+# Function to encode the image in base64
+def get_base64_image(image_path):
+    with open(image_path, "rb") as img_file:
+        return base64.b64encode(img_file.read()).decode()
+
+# Set the path to your image
+image_path = r"C:\Users\Hites\Downloads\wallpaperflare.com_wallpaper.jpg"
+
+# Get the base64 string
+base64_img = get_base64_image(image_path)
+
+# Apply the background image
+st.markdown(
+    f"""
+    <style>
+    .stApp {{
+        background-image: url("data:image/jpg;base64,{base64_img}"); 
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    }}
+    </style>
+    """,
+    unsafe_allow_html=True
+)
+
+# Load the trained ML model
+with open("flight_delay_pipeline.pkl", "rb") as model_file:
+    model = pickle.load(model_file)
+
+st.title("Flight Delay Prediction")
+
+# Sample list of airports
 airports = [
     "Los Angeles International Airport (LAX)",
     "John F. Kennedy International Airport (JFK)",
@@ -16,68 +49,54 @@ airports = [
     "Atlanta Hartsfield-Jackson International Airport (ATL)"
 ]
 
-# Set background image using an absolute path
-st.markdown(
-    """
-    <style>
-    .stApp {
-        background-image: url(https://www.google.com/search?sa=X&sca_esv=0af04e46daa0125b&udm=2&sxsrf=AHTn8zqnTDCYukudrY2NYElpwJ1bDDblVg:1738837523580&q=high+resolution+airplane+wallpaper&stick=H4sIAAAAAAAAAFvEqpSRmZ6hUJRanJ9TWpKZn6eQmFlUkJOYl6pQnpiTU5BYkFoEAOnrMSElAAAA&source=univ&ved=2ahUKEwjf66jH6q6LAxW4yzgGHdfKMtUQrNwCegQIFRAA&biw=1536&bih=730&dpr=1.25#vhid=dmWhVW6qnGsk8M&vssid=mosaic);
-        background-size: cover;
-        background-position: center;
-        background-attachment: fixed;
-    }
-    </style>
-    """,
-    unsafe_allow_html=True
-)
+# Input fields with blank options before selection
+airline = st.selectbox("Select Airline", ["", "Airline A", "Airline B", "Airline C"])
+origin = st.selectbox("Select Origin Airport", [""] + airports)
+destination = st.selectbox("Select Destination Airport", [""] + airports)
+departure_date = st.date_input("Select Departure Date", value=None)
 
-# Load the trained ML model
-with open("flight_delay_pipeline.pkl", "rb") as model_file:
-    model = pickle.load(model_file)
+# Using columns to place time and AM/PM in one line
+col1, col2 = st.columns([3, 1])
 
-st.title("Flight Delay Prediction")
+with col1:
+    departure_time = st.time_input("Select Departure Time", value=None)
 
-# Input fields
-airline = st.selectbox("Select Airline", ["Airline A", "Airline B", "Airline C"])  # Add actual airline names
+with col2:
+    am_pm = st.selectbox("AM/PM", ["AM", "PM"])
 
-# Origin Airport Dropdown
-origin = st.selectbox("Select Origin Airport", airports)
+# Combine time and AM/PM to create a 12-hour formatted time string
+if departure_time:
+    hour = departure_time.hour
+    minute = departure_time.minute
+    if am_pm == "PM" and hour < 12:
+        hour += 12  # Adjust for PM times
+    elif am_pm == "AM" and hour == 12:
+        hour = 0  # Adjust for midnight (12 AM)
+    departure_time_formatted = f"{hour:02d}:{minute:02d}"
+else:
+    departure_time_formatted = ""
 
-# Destination Airport Dropdown
-destination = st.selectbox("Select Destination Airport", airports)
-
-# Departure Date Calendar
-departure_date = st.date_input("Select Departure Date")
-
-# Departure Time Clock
-departure_time = st.time_input("Select Departure Time")
-
-# Flight Duration Input
 flight_duration = st.number_input("Enter Flight Duration (in minutes)", min_value=0)
 
 # Predict button
 if st.button("Predict Delay"):
-    # Validate inputs
     if not origin or not destination:
         st.error("Please select both origin and destination airport.")
     elif flight_duration <= 0:
         st.error("Please enter a valid flight duration.")
     else:
-        # Convert input into model features (Modify as per your model's feature engineering)
         input_data = pd.DataFrame({
             "Airline": [airline],
             "Origin": [origin],
             "Destination": [destination],
-            "Departure_Date": [departure_date.strftime('%Y-%m-%d')],
-            "Departure_Time": [departure_time.strftime('%H:%M:%S')],
+            "Departure_Date": [departure_date.strftime('%Y-%m-%d')] if departure_date else "",
+            "Departure_Time": departure_time_formatted,
             "Flight_Duration": [flight_duration],
         })
 
-        # Make prediction
         prediction = model.predict(input_data)
         probability = model.predict_proba(input_data)
 
-        # Display result
         if prediction[0] == 1:
             st.error(f"The flight is predicted to be delayed with a probability of {probability[0][1] * 100:.2f}%")
         else:
