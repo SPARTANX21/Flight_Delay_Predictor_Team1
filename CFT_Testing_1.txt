@@ -1,0 +1,161 @@
+Microsoft Windows [Version 10.0.22631.4830]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\WINDOWS\System32>aws
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+
+aws: error: the following arguments are required: command
+
+
+C:\WINDOWS\System32>aws cloudformation validate-template --template-url https://s3.amazonaws.com/my-bucket/my-emr-template.yaml
+
+An error occurred (ValidationError) when calling the ValidateTemplate operation: S3 error: Access Denied
+For more information check http://docs.aws.amazon.com/AmazonS3/latest/API/ErrorResponses.html
+
+C:\WINDOWS\System32>aws cloudformation validate-template --template-url s3://projectdatagroup1/CFTScript/test1.yaml
+
+An error occurred (ValidationError) when calling the ValidateTemplate operation: S3 error: Domain name specified in projectdatagroup1 is not a valid S3 domain
+
+C:\WINDOWS\System32>aws cloudformation validate-template --template-url https://projectdatagroup1.s3.us-east-1.amazonaws.com/CFTScript/test1.yaml
+AWS CloudFormation template to create an EMR cluster with a single master node
+
+
+C:\WINDOWS\System32>aws cloudformation create-stack \
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+
+aws: error: the following arguments are required: --stack-name
+
+
+C:\WINDOWS\System32>aws cloudformation create-stack \
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+
+aws: error: the following arguments are required: --stack-name
+
+
+C:\WINDOWS\System32>  --stack-name MyEMRStack \
+'--stack-name' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\WINDOWS\System32>  --template-url https://projectdatagroup1.s3.us-east-1.amazonaws.com/CFTScript/test1.yaml\
+'--template-url' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\WINDOWS\System32>aws cloudformation create-stack \
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+
+aws: error: the following arguments are required: --stack-name
+
+
+C:\WINDOWS\System32>aws cloudformation create-stack --stack-name MyEMRStack --template-url https://projectdatagroup1.s3.us-east-1.amazonaws.com/CFTScript/test1.yaml --capabilities CAPABILITY_NAMED_IAM
+arn:aws:cloudformation:us-east-1:730335334051:stack/MyEMRStack/7cf2f680-e6c8-11ef-a731-0ef5ed42bf47
+
+
+C:\WINDOWS\System32>aws cloudformation describe-stacks --stack-name MyEMRStack
+STACKS  2025-02-09T09:30:23.713000+00:00        2025-02-09T09:30:29.305000+00:00        AWS CloudFormation template to create an EMR cluster with a single master node  False   False   arn:aws:cloudformation:us-east-1:730335334051:stack/MyEMRStack/7cf2f680-e6c8-11ef-a731-0ef5ed42bf47     MyEMRStack      ROLLBACK_IN_PROGRESS
+CAPABILITIES    CAPABILITY_NAMED_IAM
+DRIFTINFORMATION        NOT_CHECKED
+
+
+C:\WINDOWS\System32>
+C:\WINDOWS\System32>aws emr list-clusters --active
+
+C:\WINDOWS\System32>
+C:\WINDOWS\System32>aws cloudformation describe-stack-events --stack-name MyEMRStack
+STACKEVENTS     93ec4f80-e6c8-11ef-884e-0e2da9294735    MyEMRStack      arn:aws:cloudformation:us-east-1:730335334051:stack/MyEMRStack/7cf2f680-e6c8-11ef-a731-0ef5ed42bf47             ROLLBACK_COMPLETE               AWS::CloudFormation::Stack      arn:aws:cloudformation:us-east-1:730335334051:stack/MyEMRStack/7cf2f680-e6c8-11ef-a731-0ef5ed42bf47     MyEMRStack      2025-02-09T09:31:02.126000+00:00
+STACKEVENTS     EMRCluster-DELETE_COMPLETE-2025-02-09T09:31:01.783Z     EMRCluster      j-3JMS7ZB9459YX {"Instances":{"MasterInstanceGroup":{"InstanceCount":"1","InstanceType":"m5.xlarge"}},"ServiceRole":"arn:aws:iam::730335334051:role/EMR_DefaultRole","Applications":[{"Name":"Hadoop"},{"Name":"Spark"}],"JobFlowRole":"EMR_EC2_DefaultRole","VisibleToAllUsers":"true","ReleaseLabel":"emr-6.7.0","Name":"MySingleNodeEMRCluster"}     DELETE_COMPLETE         AWS::EMR::Cluster       arn:aws:cloudformation:us-east-1:730335334051:stack/MyEMRStack/7cf2f680-e6c8-11ef-a731-0ef5ed42bf47     MyEMRStack      2025-02-09T09:31:01.783000+00:00
+STACKEVENTS     EMROutputBucket-DELETE_COMPLETE-2025-02-09T09:30:32.320Z        EMROutputBucket EMRTestFlight1  {"BucketName":"EMRTestFlight1"} DELETE_COMPLETE         AWS::S3::Bucket arn:aws:cloudformation:us-east-1:730335334051:stack/MyEMRStack/7cf2f680-e6c8-11ef-a731-0ef5ed42bf47     MyEMRStack      2025-02-09T09:30:32.320000+00:00
+STACKEVENTS     EMRCluster-DELETE_IN_PROGRESS-2025-02-09T09:30:31.121Z  EMRCluster      j-3JMS7ZB9459YX {"Instances":{"MasterInstanceGroup":{"InstanceCount":"1","InstanceType":"m5.xlarge"}},"ServiceRole":"arn:aws:iam::730335334051:role/EMR_DefaultRole","Applications":[{"Name":"Hadoop"},{"Name":"Spark"}],"JobFlowRole":"EMR_EC2_DefaultRole","VisibleToAllUsers":"true","ReleaseLabel":"emr-6.7.0","Name":"MySingleNodeEMRCluster"}     DELETE_IN_PROGRESS              AWS::EMR::Cluster       arn:aws:cloudformation:us-east-1:730335334051:stack/MyEMRStack/7cf2f680-e6c8-11ef-a731-0ef5ed42bf47     MyEMRStack      2025-02-09T09:30:31.121000+00:00
+STACKEVENTS     EMROutputBucket-DELETE_IN_PROGRESS-2025-02-09T09:30:31.108Z     EMROutputBucket EMRTestFlight1  {"BucketName":"EMRTestFlight1"} DELETE_IN_PROGRESS              AWS::S3::Bucket arn:aws:cloudformation:us-east-1:730335334051:stack/MyEMRStack/7cf2f680-e6c8-11ef-a731-0ef5ed42bf47     MyEMRStack      2025-02-09T09:30:31.108000+00:00
+STACKEVENTS     805c1220-e6c8-11ef-8731-0affe30c0943    MyEMRStack      arn:aws:cloudformation:us-east-1:730335334051:stack/MyEMRStack/7cf2f680-e6c8-11ef-a731-0ef5ed42bf47             ROLLBACK_IN_PROGRESS    The following resource(s) failed to create: [EMROutputBucket, EMRCluster]. Rollback requested by user.  AWS::CloudFormation::Stack      arn:aws:cloudformation:us-east-1:730335334051:stack/MyEMRStack/7cf2f680-e6c8-11ef-a731-0ef5ed42bf47     MyEMRStack      2025-02-09T09:30:29.305000+00:00
+STACKEVENTS     EMRCluster-CREATE_FAILED-2025-02-09T09:30:28.992Z       EMRCluster      j-3JMS7ZB9459YX {"Instances":{"MasterInstanceGroup":{"InstanceCount":"1","InstanceType":"m5.xlarge"}},"ServiceRole":"arn:aw
+C:\WINDOWS\System32>aws s3 ls | grep EMRTestFlight1
+'grep' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\WINDOWS\System32>4aws iam get-role --role-name EMR_DefaultRole
+'4aws' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\WINDOWS\System32>aws iam get-role --role-name EMR_EC2_DefaultRole
+ROLE    arn:aws:iam::730335334051:role/EMR_EC2_DefaultRole      2025-01-29T08:23:21+00:00       3600    /       AROA2UC3AZ2RWFC5JHXTV   EMR_EC2_DefaultRole
+ASSUMEROLEPOLICYDOCUMENT        2008-10-17
+STATEMENT       sts:AssumeRole  Allow
+PRINCIPAL       ec2.amazonaws.com
+ROLELASTUSED    2025-02-09T09:31:00+00:00       us-east-1
+
+
+C:\WINDOWS\System32>aws iam get-role --role-name EMR_DefaultRole
+ROLE    arn:aws:iam::730335334051:role/EMR_DefaultRole  2025-01-29T08:23:24+00:00       3600    /       AROA2UC3AZ2R25WB5SHL4   EMR_DefaultRole
+ASSUMEROLEPOLICYDOCUMENT        2008-10-17
+STATEMENT       sts:AssumeRole  Allow
+PRINCIPAL       elasticmapreduce.amazonaws.com
+ROLELASTUSED    2025-02-09T09:30:37+00:00       us-east-1
+
+
+C:\WINDOWS\System32>aws iam get-role --role-name EMR_EC2_DefaultRole
+ROLE    arn:aws:iam::730335334051:role/EMR_EC2_DefaultRole      2025-01-29T08:23:21+00:00       3600    /       AROA2UC3AZ2RWFC5JHXTV   EMR_EC2_DefaultRole
+ASSUMEROLEPOLICYDOCUMENT        2008-10-17
+STATEMENT       sts:AssumeRole  Allow
+PRINCIPAL       ec2.amazonaws.com
+ROLELASTUSED    2025-02-09T09:31:00+00:00       us-east-1
+
+
+C:\WINDOWS\System32>aws iam list-roles --query "Roles[*].RoleName"
+AWSServiceRoleForAWSCloud9      AWSServiceRoleForCloudWatchEvents       AWSServiceRoleForElastiCache    AWSServiceRoleForEMRCleanup     AWSServiceRoleForOrganizations  AWSServiceRoleForRDS    AWSServiceRoleForRedshift       AWSServiceRoleForSupport        AWSServiceRoleForTrustedAdvisor c141176a3627152l8334542t1w73033533405-LambdaSLRRole-5WeardFFOdoo        EMR_AutoScaling_DefaultRole     EMR_DefaultRole EMR_EC2_DefaultRole     EMR_Notebooks_DefaultRole       LabRole myRedshiftRole  RedshiftRole    RoleForLambdaModLabRole vocareum        vocareum-eventbridge    voclabs
+
+
+C:\WINDOWS\System32>aws cloudformation create-stack --stack-name MyEMRStack --template-url https://projectdatagroup1.s3.us-east-1.amazonaws.com/CFTScript/Test2.yaml --capabilities CAPABILITY_NAMED_IAM
+
+An error occurred (AlreadyExistsException) when calling the CreateStack operation: Stack [MyEMRStack] already exists
+
+C:\WINDOWS\System32>aws cloudformation create-stack --stack-name MyEMRStack2 --template-url https://projectdatagroup1.s3.us-east-1.amazonaws.com/CFTScript/Test2.yaml --capabilities CAPABILITY_NAMED_IAM
+arn:aws:cloudformation:us-east-1:730335334051:stack/MyEMRStack2/fcf85af0-e6d2-11ef-962a-0affc15ab223
+
+
+C:\WINDOWS\System32>aws cloudformation describe-stack-events --stack-name MyEMRStack2
+STACKEVENTS     02a9b8e0-e6d3-11ef-8b88-0e9f1bb69c9d    MyEMRStack2     arn:aws:cloudformation:us-east-1:730335334051:stack/MyEMRStack2/fcf85af0-e6d2-11ef-962a-0affc15ab223            ROLLBACK_COMPLETE               AWS::CloudFormation::Stack      arn:aws:cloudformation:us-east-1:730335334051:stack/MyEMRStack2/fcf85af0-e6d2-11ef-962a-0affc15ab223    MyEMRStack2     2025-02-09T10:45:42.883000+00:00
+STACKEVENTS     EMROutputBucket-DELETE_COMPLETE-2025-02-09T10:45:42.558Z        EMROutputBucket         {"BucketName":"EMRTestFlight2"} DELETE_COMPLETE         AWS::S3::Bucket arn:aws:cloudformation:us-east-1:730335334051:stack/MyEMRStack2/fcf85af0-e6d2-11ef-962a-0affc15ab223    MyEMRStack2     2025-02-09T10:45:42.558000+00:00
+STACKEVENTS     EMRCluster-DELETE_COMPLETE-2025-02-09T10:45:42.287Z     EMRCluster                      DELETE_COMPLETE         AWS::EMR::Cluster       arn:aws:cloudformation:us-east-1:730335334051:stack/MyEMRStack2/fcf85af0-e6d2-11ef-962a-0affc15ab223    MyEMRStack2     2025-02-09T10:45:42.287000+00:00
+STACKEVENTS     ff08c460-e6d2-11ef-a0c2-0e714e829887    MyEMRStack2     arn:aws:cloudformation:us-east-1:730335334051:stack/MyEMRStack2/fcf85af0-e6d2-11ef-962a-0affc15ab223            ROLLBACK_IN_PROGRESS    The following resource(s) failed to create: [EMROutputBucket, EMRCluster]. Rollback requested by user.  AWS::CloudFormation::Stack      arn:aws:cloudformation:us-east-1:730335334051:stack/MyEMRStack2/fcf85af0-e6d2-11ef-962a-0affc15ab223    MyEMRStack2     2025-02-09T10:45:36.798000+00:00
+STACKEVENTS     EMROutputBucket-CREATE_FAILED-2025-02-09T10:45:36.503Z  EMROutputBucket         {"BucketName":"EMRTestFlight2"} CREATE_FAILED   Resource creation cancelled     AWS::S3::Bucket arn:aws:cloudformation:us-east-1:730335334051:stack/MyEMRStack2/fcf85af0-e6d2-11ef-962a-0affc15ab223    MyEMRStack2     2025-02-09T10:45:36.503000+00:00
+STACKEVENTS     EMRCluster-CREATE_FAILED-2025-02-09T10:45:36.214Z       EMRCluster                      CREATE_FAILED   Encountered unsupported property VpcId  AWS::EMR::Cluster       arn:aws:cloudformation:us-east-1:730335334051:stack/MyEMRStack2/fcf85af0-e6d2-11ef-962a-0affc15ab223    MyEMRStack2     2025-02-09T10:45:36.214000+00:00
+STACKEVENTS     EMROutputBucket-CREATE_IN_PROGRESS-2025-02-09T10:45:35.689Z     EMROutputBucket         {"BucketName":"EMRTestFlight2"} CREATE_IN_PROGRESS              AWS::S3::Bucket arn:aws:cloudformation:us-east-1:730335334051:stack/MyEMRStack2/fcf85af0-e6d2-11ef-962a-0affc15ab223    MyEMRStack2     2025-02-09T10:45:35.689000+00:00
+STACKEVENTS     fcfa7dd0-e6d2-11ef-962a-0affc15ab223    MyEMRStack2     arn:aws:cloudformation:us-east-1:730335334051:stack/MyEMRStack2/fcf85af0-e6d2-11ef-962a-0affc15ab223            CREATE_IN_PROGRESS      User Initiated  AWS::CloudFormation::Stack      arn:aws:cloudformation:us-east-1:730335334051:stack/MyEMRStack2/fcf85af0-e6d2-11ef-962a-0affc15ab223    MyEMRStack2     2025-02-09T10:45:33.445000+00:00
+
+
+C:\WINDOWS\System32>aws cloudformation describe-stack-events --stack-name MyEMRStack2
+STACKEVENTS     02a9b8e0-e6d3-11ef-8b88-0e9f1bb69c9d    MyEMRStack2     arn:aws:cloudformation:us-east-1:730335334051:stack/MyEMRStack2/fcf85af0-e6d2-11ef-962a-0affc15ab223            ROLLBACK_COMPLETE               AWS::CloudFormation::Stack      arn:aws:cloudformation:us-east-1:730335334051:stack/MyEMRStack2/fcf85af0-e6d2-11ef-962a-0affc15ab223    MyEMRStack2     2025-02-09T10:45:42.883000+00:00
+STACKEVENTS     EMROutputBucket-DELETE_COMPLETE-2025-02-09T10:45:42.558Z        EMROutputBucket         {"BucketName":"EMRTestFlight2"} DELETE_COMPLETE         AWS::S3::Bucket arn:aws:cloudformation:us-east-1:730335334051:stack/MyEMRStack2/fcf85af0-e6d2-11ef-962a-0affc15ab223    MyEMRStack2     2025-02-09T10:45:42.558000+00:00
+STACKEVENTS     EMRCluster-DELETE_COMPLETE-2025-02-09T10:45:42.287Z     EMRCluster                      DELETE_COMPLETE         AWS::EMR::Cluster       arn:aws:cloudformation:us-east-1:730335334051:stack/MyEMRStack2/fcf85af0-e6d2-11ef-962a-0affc15ab223    MyEMRStack2     2025-02-09T10:45:42.287000+00:00
+STACKEVENTS     ff08c460-e6d2-11ef-a0c2-0e714e829887    MyEMRStack2     arn:aws:cloudformation:us-east-1:730335334051:stack/MyEMRStack2/fcf85af0-e6d2-11ef-962a-0affc15ab223            ROLLBACK_IN_PROGRESS    The following resource(s) failed to create: [EMROutputBucket, EMRCluster]. Rollback requested by user.  AWS::CloudFormation::Stack      arn:aws:cloudformation:us-east-1:730335334051:stack/MyEMRStack2/fcf85af0-e6d2-11ef-962a-0affc15ab223    MyEMRStack2     2025-02-09T10:45:36.798000+00:00
+STACKEVENTS     EMROutputBucket-CREATE_FAILED-2025-02-09T10:45:36.503Z  EMROutputBucket         {"BucketName":"EMRTestFlight2"} CREATE_FAILED   Resource creation cancelled     AWS::S3::Bucket arn:aws:cloudformation:us-east-1:730335334051:stack/MyEMRStack2/fcf85af0-e6d2-11ef-962a-0affc15ab223    MyEMRStack2     2025-02-09T10:45:36.503000+00:00
+STACKEVENTS     EMRCluster-CREATE_FAILED-2025-02-09T10:45:36.214Z       EMRCluster                      CREATE_FAILED   Encountered unsupported property VpcId  AWS::EMR::Cluster       arn:aws:cloudformation:us-east-1:730335334051:stack/MyEMRStack2/fcf85af0-e6d2-11ef-962a-0affc15ab223    MyEMRStack2     2025-02-09T10:45:36.214000+00:00
+STACKEVENTS     EMROutputBucket-CREATE_IN_PROGRESS-2025-02-09T10:45:35.689Z     EMROutputBucket         {"BucketName":"EMRTestFlight2"} CREATE_IN_PROGRESS              AWS::S3::Bucket arn:aws:cloudformation:us-east-1:730335334051:stack/MyEMRStack2/fcf85af0-e6d2-11ef-962a-0affc15ab223    MyEMRStack2     2025-02-09T10:45:35.689000+00:00
+STACKEVENTS     fcfa7dd0-e6d2-11ef-962a-0affc15ab223    MyEMRStack2     arn:aws:cloudformation:us-east-1:730335334051:stack/MyEMRStack2/fcf85af0-e6d2-11ef-962a-0affc15ab223            CREATE_IN_PROGRESS      User Initiated  AWS::CloudFormation::Stack      arn:aws:cloudformation:us-east-1:730335334051:stack/MyEMRStack2/fcf85af0-e6d2-11ef-962a-0affc15ab223    MyEMRStack2     2025-02-09T10:45:33.445000+00:00
+
+
+C:\WINDOWS\System32>

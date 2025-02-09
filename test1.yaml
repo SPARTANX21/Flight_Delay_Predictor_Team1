@@ -1,0 +1,44 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Description: 'AWS CloudFormation template to create an EMR cluster with a single master node'
+
+Resources:
+
+  # 🔹 S3 Bucket to Store EMR Output
+  EMROutputBucket:
+    Type: AWS::S3::Bucket
+    Properties:
+      BucketName: EMRTestFlight2   # Change this to a unique name
+
+  # 🔹 EMR Cluster with a Single Master Node
+  EMRCluster:
+    Type: AWS::EMR::Cluster
+    Properties:
+      Name: MySingleNodeEMRCluster
+      ReleaseLabel: emr-7.7.0  # EMR version
+      Applications:
+        - Name: Hadoop
+        - Name: Spark
+      Instances:
+        MasterInstanceGroup:
+          InstanceType: m5.xlarge  # Single master instance
+          InstanceCount: 1
+      JobFlowRole: EMR_EC2_DefaultRole  # Use an existing IAM role (replace if needed)
+      ServiceRole: arn:aws:iam::730335334051:role/EMR_DefaultRole  # Replace with your IAM role
+      VisibleToAllUsers: true
+
+  EMRStep:
+    Type: AWS::EMR::Step
+    Properties:
+      Name: ProcessParquetStep
+      ActionOnFailure: CONTINUE
+      HadoopJarStep:
+        Jar: command-runner.jar
+        Args:
+          - spark-submit
+          - s3://projectdatagroup1/CFTScript/CFT_PythonCode_Test1.py  # Updated script
+          - --input
+          - s3://projectdatagroup1/MergedOutput/part-00000-cd62a82a-9e17-4ae8-bbce-ca6ace9356ad-c000.snappy.parquet  # Parquet file location
+          - --output
+          - s3://projectdatagroup1/CFTScript/CFT_Output/sample_output.csv  # Single CSV file output
+      JobFlowId: !Ref EMRCluster
+
