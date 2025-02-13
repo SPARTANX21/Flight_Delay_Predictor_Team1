@@ -1,0 +1,60 @@
+AWSTemplateFormatVersion: "2010-09-09"
+Description: "CloudFormation template for flight delay automation."
+
+Resources:
+  
+  # 1. S3 Bucket for Raw Data
+  RawDataBucket:
+    Type: "AWS::S3::Bucket"
+    Properties:
+      BucketName: "cft-raw-data-bucket"
+
+  # 2. S3 Bucket for Sampled Data
+  SampledDataBucket:
+    Type: "AWS::S3::Bucket"
+    Properties:
+      BucketName: "cft-sampled-data-bucket"
+
+  # 3. S3 Bucket for Transformed Data
+  TransformedDataBucket:
+    Type: "AWS::S3::Bucket"
+    Properties:
+      BucketName: "cft-transformed-data-bucket"
+
+  # 4. Glue Job for Sampling
+  FlightSamplingJob:
+    Type: "AWS::Glue::Job"
+    Properties:
+      Name: "Flight-Sampling-Job"
+      Role: "arn:aws:iam::730335334051:role/LabRole"
+      Command:
+        Name: "glueetl"
+        ScriptLocation: "s3://grp1-glue-scripts/sampling.py"
+        PythonVersion: "3"
+      DefaultArguments:
+        "--TempDir": "s3://cft-sampled-data-bucket/temp/"
+        "--enable-metrics": "true"
+        "--enable-continuous-cloudwatch-log": "true"
+        "--job-language": "python"
+      GlueVersion: "3.0"
+      WorkerType: "G.1X"
+      NumberOfWorkers: 2
+
+  # 5. Glue Job for Transformation
+  FlightTransformationJob:
+    Type: "AWS::Glue::Job"
+    Properties:
+      Name: "Flight-Transformation-Job"
+      Role: "arn:aws:iam::730335334051:role/LabRole"
+      Command:
+        Name: "glueetl"
+        ScriptLocation: "s3://grp1-glue-scripts/transformation.py"
+        PythonVersion: "3"
+      DefaultArguments:
+        "--TempDir": "s3://cft-transformed-data-bucket/temp/"
+        "--enable-metrics": "true"
+        "--enable-continuous-cloudwatch-log": "true"
+        "--job-language": "python"
+      GlueVersion: "3.0"
+      WorkerType: "G.1X"
+      NumberOfWorkers: 2
