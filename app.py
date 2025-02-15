@@ -3,14 +3,14 @@ import pandas as pd
 import numpy as np
 from datetime import datetime
 import joblib
+import base64
 from xgboost import XGBClassifier
 
-# Load taxi data at the beginning (after model loading)
-taxi_df = pd.read_csv('Taxi_IN_OUT_MeanValues.csv')
+
 # Load pre-trained models and encoders
 preprocessor = joblib.load('preprocessor.joblib')
 label_encoder = joblib.load('label_encoder.joblib')
-model = joblib.load('xgboost_model.joblib')
+model = joblib.load('xgboost2_model.joblib')
 
 # Airline and airport options
 airlines = ['Alaska Airlines Inc.', 'Southwest Airlines Co.', 'United Air Lines Inc.',
@@ -69,19 +69,20 @@ def calculate_wheels_off_on(schd_dep_time, schd_arr_time, taxi_out=10, taxi_in=2
 
     # WheelsOff = SchdDepTime + TaxiOut
     wheels_off_mins = dep_mins + taxi_out
-    wheels_off_hh = (wheels_off_mins // 60) % 24
-    wheels_off_mm = wheels_off_mins % 60
+    wheels_off_hh = int((wheels_off_mins // 60) % 24)  # Ensure it's an integer
+    wheels_off_mm = int(wheels_off_mins % 60)  # Ensure it's an integer
     wheels_off = f"{wheels_off_hh:02d}{wheels_off_mm:02d}"
 
     # WheelsOn calculation
     flight_duration = arr_mins - dep_mins
     actual_flight_duration = flight_duration - (taxi_out + taxi_in)
     wheels_on_mins = wheels_off_mins + actual_flight_duration
-    wheels_on_hh = (wheels_on_mins // 60) % 24
-    wheels_on_mm = wheels_on_mins % 60
+    wheels_on_hh = int((wheels_on_mins // 60) % 24)  # Ensure it's an integer
+    wheels_on_mm = int(wheels_on_mins % 60)  # Ensure it's an integer
     wheels_on = f"{wheels_on_hh:02d}{wheels_on_mm:02d}"
 
     return wheels_off, wheels_on
+
 
 
 def get_schd_dep_time_of_day(hour):
@@ -94,9 +95,43 @@ def get_schd_dep_time_of_day(hour):
     else:
         return 'Evening'
 
+# Function to encode the image file
+import streamlit as st
+import base64
 
-# Streamlit UI
-st.title('Flight Delay Prediction')
+# Function to encode the image file
+def get_base64_of_bin_file(image_path):
+    with open(image_path, "rb") as img_file:
+        return base64.b64encode(img_file.read()).decode()
+
+# Set background image
+def set_styles(image_path):
+    base64_str = get_base64_of_bin_file(image_path)
+    css = f"""
+    <style>
+    .stApp {{
+        background-image: url("data:image/jpg;base64,{base64_str}");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }}
+    .custom-title span {{
+        color: white !important;
+        font-weight: bold;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    }}
+    </style>
+    """
+    st.markdown(css, unsafe_allow_html=True)
+
+# Path to your image
+image_path = r"aeroimage.jpg"
+set_styles(image_path)
+
+# Streamlit UI components
+st.markdown('<h1 class="custom-title"><span>FLIGHT DELAY PREDICTION</span></h1>', unsafe_allow_html=True)
+st.write("Welcome to the flight delay prediction app!")
+
 
 # Input fields
 airline = st.selectbox('Airline', airlines)
@@ -115,13 +150,13 @@ def validate_inputs(origin, dest, schd_dep_time, schd_arr_time, travel_date):
         errors.append("Origin and Destination airports cannot be the same.")
 
     # Check if scheduled departure and arrival times are the same
-    if schd_dep_time >= schd_arr_time:
-        errors.append("Scheduled Departure Time and Scheduled Arrival Time cannot be the same.")
+    #if schd_dep_time >= schd_arr_time:
+    #    errors.append("Scheduled Departure Time and Scheduled Arrival Time cannot be the same.")
 
     # Check if travel date is in the past
-    current_date = datetime.now().date()
-    if travel_date < current_date:
-        errors.append("Travel Date must be today or a future date.")
+    #current_date = datetime.now().date()
+    #if travel_date < current_date:
+    #    errors.append("Travel Date must be today or a future date.")
 
     return errors
 
@@ -145,24 +180,35 @@ if st.button('Predict Delay Probability'):
         schd_dep_hour = int(schd_dep_time.split(':')[0]) if ':' in schd_dep_time else 0
         schd_dep_time_of_day = get_schd_dep_time_of_day(schd_dep_hour)
 
-        # Get TaxiIn and TaxiOut from CSV
+        # Load TaxiOut and TaxiIn data from CSVs (do this once at startup)
         try:
-            # Look for matching Origin-Dest pair
-            taxi_data = taxi_df[(taxi_df['Origin'] == origin) & (taxi_df['Dest'] == dest)]
-
-            if not taxi_data.empty:
-                # Take first matching row's values
-                taxi_in = round(taxi_data.iloc[0]['TaxiIn'], 2)
-                taxi_out = round(taxi_data.iloc[0]['TaxiOut'], 2)
-            else:
-                # Default values if no match found
-                taxi_in = 10
-                taxi_out = 15
-
+            taxi_out_df = pd.read_csv('TaxiOut_airport_origin.csv')
+            taxi_in_df = pd.read_csv('Taxiin_airport_origin.csv')
         except Exception as e:
             st.error(f"Error loading taxi data: {str(e)}")
-            taxi_in = 10
-            taxi_out = 15
+            taxi_out_df = pd.DataFrame(
+                columns=['Airline', 'Origin', 'mean'])  # Create empty DataFrame with expected columns
+            taxi_in_df = pd.DataFrame(
+                columns=['Airline', 'Origin', 'mean'])  # Create empty DataFrame with expected columns
+
+        # Then in your processing logic:
+        try:
+            # Get TaxiOut based on Airline and Origin
+            taxi_out_data = taxi_out_df[(taxi_out_df['Airline'] == airline) &
+                                        (taxi_out_df['Origin'] == origin)]
+            taxi_out = round(taxi_out_data.iloc[0]['mean'], 2) if not taxi_out_data.empty else 16  # Default value 16
+
+            # Get TaxiIn based on Airline and Dest
+            taxi_in_data = taxi_in_df[(taxi_in_df['Airline'] == airline) &
+                                      (taxi_in_df['Dest'] == dest)]
+            taxi_in = round(taxi_in_data.iloc[0]['mean'], 2) if not taxi_in_data.empty else 6  # Default value 6
+
+        except Exception as e:
+            st.error(f"Error processing taxi data: {str(e)}")
+            taxi_in = 6  # Default value for TaxiIn
+            taxi_out = 16  # Default value for TaxiOut
+        
+        
 
         # Calculate derived features
         wheels_off, wheels_on = calculate_wheels_off_on(schd_dep_time, schd_arr_time, taxi_out, taxi_in)
@@ -194,24 +240,38 @@ if st.button('Predict Delay Probability'):
 
         # Create result display with correct ordering
         result_labels = [
-            'No Delay(0-15min)',
-            'Short Delay(15-60min)',
-            'Medium Delay(60-120min)',
-            'Long Delay(120-180min)',
-            'Very Long Delay(180min and more)'
+            'No Delay(0-5min)',
+            'Short Delay(5-30min)',
+            'Medium Delay(30-60min)',
+            'Long Delay(60-120min)',
+            'Very Long Delay(120min and more)'
         ]
 
-        # Map probabilities to correct order based on label encoder
-        label_order = label_encoder.classes_
         prob_mapping = {
-            'No Delay(0-15min)': probabilities[np.where(label_order == 'No Delay')[0][0]],
-            'Short Delay(15-60min)': probabilities[np.where(label_order == 'Short Delay')[0][0]],
-            'Medium Delay(60-120min)': probabilities[np.where(label_order == 'Medium Delay')[0][0]],
-            'Long Delay(120-180min)': probabilities[np.where(label_order == 'Long Delay')[0][0]],
-            'Very Long Delay(180min and more)': probabilities[np.where(label_order == 'Very Long Delay')[0][0]]
+            'No Delay(0-5min)': probabilities[2],  # Encoded as 2
+            'Short Delay(5-30min)': probabilities[3],  # Encoded as 3
+            'Medium Delay(30-60min)': probabilities[1],  # Encoded as 1
+            'Long Delay(60-120min)': probabilities[0],  # Encoded as 0
+            'Very Long Delay(120min and more)': probabilities[4]  # Encoded as 4
         }
 
-        # Display results
-        st.subheader('Arrival Delay Chances:')
-        for label, prob in prob_mapping.items():
-            st.write(f"{label} = {prob * 100:.2f}%")
+        # CSS to ensure white text with black shading
+        css = """
+                    <style>
+                        .probability-container {
+                            color: white;
+                            font-size: 28px;  /* Increase font size */
+                            font-weight: bold;
+                            text-shadow: 3px 3px 5px black, -3px -3px 5px black, 3px -3px 5px black, -3px 3px 5px black;
+                        }
+                    </style>
+                """
+        st.markdown(css, unsafe_allow_html=True)
+
+        # Display probabilities with inline styles
+        st.markdown('<div class="probability-container">', unsafe_allow_html=True)
+        for category, probability in prob_mapping.items():
+            st.markdown(
+                f'<p style="color: white; font-size: 28px; font-weight: bold; text-shadow: 3px 3px 5px black, -3px -3px 5px black, 3px -3px 5px black, -3px 3px 5px black;">{category}: {probability:.2%}</p>',
+                unsafe_allow_html=True)
+        st.markdown('</div>', unsafe_allow_html=True)
