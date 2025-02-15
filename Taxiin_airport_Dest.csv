@@ -1,0 +1,2435 @@
+Airline,Dest,mean
+Air Wisconsin Airlines Corp,ABE,5.329842931937173
+Air Wisconsin Airlines Corp,ALB,3.9591836734693877
+Air Wisconsin Airlines Corp,ATW,5.771523178807947
+Air Wisconsin Airlines Corp,AVP,3.984536082474227
+Air Wisconsin Airlines Corp,AZO,3.664088397790055
+Air Wisconsin Airlines Corp,BDL,7.0
+Air Wisconsin Airlines Corp,BHM,5.268156424581005
+Air Wisconsin Airlines Corp,BIS,5.888888888888889
+Air Wisconsin Airlines Corp,BNA,8.044925124792014
+Air Wisconsin Airlines Corp,BTV,4.862903225806452
+Air Wisconsin Airlines Corp,BUF,4.767676767676767
+Air Wisconsin Airlines Corp,CAE,4.528994845360825
+Air Wisconsin Airlines Corp,CAK,5.123337363966143
+Air Wisconsin Airlines Corp,CHA,4.793357933579336
+Air Wisconsin Airlines Corp,CHO,4.34940855323021
+Air Wisconsin Airlines Corp,CHS,6.0508474576271185
+Air Wisconsin Airlines Corp,CID,5.110638297872341
+Air Wisconsin Airlines Corp,CLE,6.392857142857143
+Air Wisconsin Airlines Corp,CMH,5.771470160116448
+Air Wisconsin Airlines Corp,CMI,4.131868131868132
+Air Wisconsin Airlines Corp,COU,3.9275653923541247
+Air Wisconsin Airlines Corp,CRW,5.208294930875576
+Air Wisconsin Airlines Corp,CVG,7.954545454545454
+Air Wisconsin Airlines Corp,CWA,3.5137614678899083
+Air Wisconsin Airlines Corp,DAY,5.540463795551349
+Air Wisconsin Airlines Corp,DEN,11.867321867321868
+Air Wisconsin Airlines Corp,DSM,5.008264462809917
+Air Wisconsin Airlines Corp,ERI,3.7950937950937953
+Air Wisconsin Airlines Corp,EVV,4.05125284738041
+Air Wisconsin Airlines Corp,EWR,10.0
+Air Wisconsin Airlines Corp,FAR,5.910526315789474
+Air Wisconsin Airlines Corp,FAY,5.131455399061033
+Air Wisconsin Airlines Corp,FNT,4.44392523364486
+Air Wisconsin Airlines Corp,FSD,5.9225967540574285
+Air Wisconsin Airlines Corp,GRB,3.8802902055622734
+Air Wisconsin Airlines Corp,GRR,4.282432432432432
+Air Wisconsin Airlines Corp,GSO,6.522791221159257
+Air Wisconsin Airlines Corp,GSP,4.345063538611925
+Air Wisconsin Airlines Corp,HPN,5.026939655172414
+Air Wisconsin Airlines Corp,HSV,5.811797752808989
+Air Wisconsin Airlines Corp,IAD,6.547244094488189
+Air Wisconsin Airlines Corp,ICT,3.898026315789474
+Air Wisconsin Airlines Corp,ILM,4.191339375629406
+Air Wisconsin Airlines Corp,IND,5.5683823529411764
+Air Wisconsin Airlines Corp,JAN,4.680616740088106
+Air Wisconsin Airlines Corp,JAX,6.344827586206897
+Air Wisconsin Airlines Corp,LAN,4.020361990950226
+Air Wisconsin Airlines Corp,LEX,4.096707818930041
+Air Wisconsin Airlines Corp,LIT,6.939655172413793
+Air Wisconsin Airlines Corp,LNK,4.1871412169919635
+Air Wisconsin Airlines Corp,MCI,4.730769230769231
+Air Wisconsin Airlines Corp,MDT,4.091383812010444
+Air Wisconsin Airlines Corp,MHT,5.168067226890757
+Air Wisconsin Airlines Corp,MKE,6.536516853932584
+Air Wisconsin Airlines Corp,MLI,4.666666666666667
+Air Wisconsin Airlines Corp,MSN,4.418269230769231
+Air Wisconsin Airlines Corp,OKC,5.933333333333334
+Air Wisconsin Airlines Corp,OMA,3.6222222222222222
+Air Wisconsin Airlines Corp,ORD,13.900273379655998
+Air Wisconsin Airlines Corp,ORF,3.6496062992125986
+Air Wisconsin Airlines Corp,PHL,7.0462046204620465
+Air Wisconsin Airlines Corp,PIA,3.8135860979462874
+Air Wisconsin Airlines Corp,PNS,4.151515151515151
+Air Wisconsin Airlines Corp,PVD,3.94
+Air Wisconsin Airlines Corp,PWM,4.03921568627451
+Air Wisconsin Airlines Corp,RAP,6.396341463414634
+Air Wisconsin Airlines Corp,RIC,7.3039319872476085
+Air Wisconsin Airlines Corp,ROA,7.497
+Air Wisconsin Airlines Corp,ROC,7.622641509433962
+Air Wisconsin Airlines Corp,RST,4.065095398428732
+Air Wisconsin Airlines Corp,SAV,5.042998897464168
+Air Wisconsin Airlines Corp,SBN,3.611111111111111
+Air Wisconsin Airlines Corp,SCE,3.4070146818923326
+Air Wisconsin Airlines Corp,SDF,9.541237113402062
+Air Wisconsin Airlines Corp,SGF,6.314126394052044
+Air Wisconsin Airlines Corp,STL,5.774869109947644
+Air Wisconsin Airlines Corp,SYR,5.279835390946502
+Air Wisconsin Airlines Corp,TUL,4.4965753424657535
+Air Wisconsin Airlines Corp,TVC,4.554263565891473
+Air Wisconsin Airlines Corp,TYS,4.137876386687797
+Air Wisconsin Airlines Corp,XNA,7.0286195286195285
+Alaska Airlines Inc.,ABQ,6.3936170212765955
+Alaska Airlines Inc.,ADK,5.0394736842105265
+Alaska Airlines Inc.,ADQ,3.238095238095238
+Alaska Airlines Inc.,AKN,4.0
+Alaska Airlines Inc.,ANC,4.371865781710914
+Alaska Airlines Inc.,ATL,7.3812375249501
+Alaska Airlines Inc.,AUS,6.009401709401709
+Alaska Airlines Inc.,BET,3.6557377049180326
+Alaska Airlines Inc.,BLI,4.2809917355371905
+Alaska Airlines Inc.,BNA,6.448742746615087
+Alaska Airlines Inc.,BOI,3.8272921108742004
+Alaska Airlines Inc.,BOS,9.426327944572748
+Alaska Airlines Inc.,BRW,3.9814814814814814
+Alaska Airlines Inc.,BUR,4.1268954509177975
+Alaska Airlines Inc.,BWI,9.16715830875123
+Alaska Airlines Inc.,CDV,3.71588785046729
+Alaska Airlines Inc.,CHS,6.114130434782608
+Alaska Airlines Inc.,DAL,8.804968944099379
+Alaska Airlines Inc.,DCA,6.077279752704792
+Alaska Airlines Inc.,DEN,7.396694214876033
+Alaska Airlines Inc.,DFW,8.583179297597043
+Alaska Airlines Inc.,DLG,4.612903225806452
+Alaska Airlines Inc.,DTW,7.897916666666666
+Alaska Airlines Inc.,EWR,10.816300129366105
+Alaska Airlines Inc.,FAI,3.5963586396427343
+Alaska Airlines Inc.,FLL,6.2206266318537855
+Alaska Airlines Inc.,GEG,4.2145748987854255
+Alaska Airlines Inc.,GST,5.666666666666667
+Alaska Airlines Inc.,HNL,8.539038376709307
+Alaska Airlines Inc.,IAD,6.825108225108225
+Alaska Airlines Inc.,IAH,8.504608294930875
+Alaska Airlines Inc.,IND,6.038363171355499
+Alaska Airlines Inc.,JFK,9.01059390048154
+Alaska Airlines Inc.,JNU,4.079526782780151
+Alaska Airlines Inc.,KOA,7.749017038007864
+Alaska Airlines Inc.,KTN,4.396337861783816
+Alaska Airlines Inc.,LAS,7.712952799121844
+Alaska Airlines Inc.,LAX,13.398764085786986
+Alaska Airlines Inc.,LIH,6.987531172069826
+Alaska Airlines Inc.,MCI,7.031319910514541
+Alaska Airlines Inc.,MCO,9.596477181745396
+Alaska Airlines Inc.,MKE,4.0257510729613735
+Alaska Airlines Inc.,MSP,6.68796992481203
+Alaska Airlines Inc.,MSY,7.778688524590164
+Alaska Airlines Inc.,OAK,5.629049111807732
+Alaska Airlines Inc.,OGG,8.009387908374014
+Alaska Airlines Inc.,OMA,5.8321167883211675
+Alaska Airlines Inc.,OME,3.601923076923077
+Alaska Airlines Inc.,ONT,4.104774535809018
+Alaska Airlines Inc.,ORD,16.582660433489163
+Alaska Airlines Inc.,OTZ,3.9278937381404173
+Alaska Airlines Inc.,PDX,5.029316647919011
+Alaska Airlines Inc.,PHL,8.376373626373626
+Alaska Airlines Inc.,PHX,6.229126213592233
+Alaska Airlines Inc.,PIT,5.232758620689655
+Alaska Airlines Inc.,PSG,3.8460111317254175
+Alaska Airlines Inc.,PSP,5.05694618272841
+Alaska Airlines Inc.,RDM,4.3
+Alaska Airlines Inc.,RDU,6.20997920997921
+Alaska Airlines Inc.,SAN,4.3890933422549345
+Alaska Airlines Inc.,SAT,4.92
+Alaska Airlines Inc.,SBA,4.192727272727272
+Alaska Airlines Inc.,SCC,3.5704125177809387
+Alaska Airlines Inc.,SEA,9.93391097519538
+Alaska Airlines Inc.,SFO,8.414330609679446
+Alaska Airlines Inc.,SIT,4.224824355971897
+Alaska Airlines Inc.,SJC,5.119154228855721
+Alaska Airlines Inc.,SLC,6.155131264916467
+Alaska Airlines Inc.,SMF,5.786649214659686
+Alaska Airlines Inc.,SNA,5.505365853658536
+Alaska Airlines Inc.,STL,6.0880829015544045
+Alaska Airlines Inc.,TPA,5.5
+Alaska Airlines Inc.,TUS,4.456204379562044
+Alaska Airlines Inc.,WRG,3.824074074074074
+Alaska Airlines Inc.,YAK,4.07635009310987
+Allegiant Air,ABE,5.350111856823267
+Allegiant Air,ABQ,5.654708520179372
+Allegiant Air,ALB,5.928571428571429
+Allegiant Air,ATW,5.889908256880734
+Allegiant Air,AUS,6.057030481809243
+Allegiant Air,AVL,7.573758865248227
+Allegiant Air,AVP,7.5
+Allegiant Air,AZA,5.804297774366845
+Allegiant Air,BGR,6.367403314917127
+Allegiant Air,BIL,5.176258992805756
+Allegiant Air,BIS,6.474489795918367
+Allegiant Air,BLI,6.448427672955975
+Allegiant Air,BLV,6.210891089108911
+Allegiant Air,BMI,5.896396396396397
+Allegiant Air,BNA,9.67816091954023
+Allegiant Air,BOI,5.7115987460815045
+Allegiant Air,BWI,6.445070422535212
+Allegiant Air,BZN,8.671052631578947
+Allegiant Air,CHA,8.95111111111111
+Allegiant Air,CHS,7.044642857142857
+Allegiant Air,CID,7.771551724137931
+Allegiant Air,CKB,6.30327868852459
+Allegiant Air,CLE,7.591916558018253
+Allegiant Air,COS,9.2
+Allegiant Air,CPR,5.0
+Allegiant Air,CVG,7.380172174396001
+Allegiant Air,DAY,5.895209580838324
+Allegiant Air,DEN,9.080924855491329
+Allegiant Air,DSM,7.706982543640898
+Allegiant Air,ELM,5.71280276816609
+Allegiant Air,ELP,5.926829268292683
+Allegiant Air,EUG,6.620758483033932
+Allegiant Air,EVV,5.451388888888889
+Allegiant Air,EWR,7.203125
+Allegiant Air,FAR,5.78494623655914
+Allegiant Air,FAT,5.241035856573705
+Allegiant Air,FCA,5.633986928104576
+Allegiant Air,FLL,9.227800546448087
+Allegiant Air,FNT,6.916256157635468
+Allegiant Air,FSD,6.805071315372425
+Allegiant Air,FWA,5.747311827956989
+Allegiant Air,GFK,5.8246445497630335
+Allegiant Air,GJT,7.503937007874016
+Allegiant Air,GPT,5.883495145631068
+Allegiant Air,GRI,7.36697247706422
+Allegiant Air,GRR,9.48936170212766
+Allegiant Air,GSO,6.819905213270142
+Allegiant Air,GSP,7.27020202020202
+Allegiant Air,GTF,5.865470852017937
+Allegiant Air,HGR,5.5036496350364965
+Allegiant Air,HTS,6.164759725400458
+Allegiant Air,IAG,9.21806167400881
+Allegiant Air,ICT,5.708333333333333
+Allegiant Air,IDA,6.176666666666667
+Allegiant Air,IND,7.917222222222223
+Allegiant Air,JAX,7.910321489001692
+Allegiant Air,LAS,5.98493213710605
+Allegiant Air,LAX,10.317104420243433
+Allegiant Air,LCK,5.949485500467727
+Allegiant Air,LEX,6.333333333333333
+Allegiant Air,LIT,11.61111111111111
+Allegiant Air,LRD,5.88785046728972
+Allegiant Air,MCI,6.5095238095238095
+Allegiant Air,MDT,7.052830188679246
+Allegiant Air,MEM,10.401564537157757
+Allegiant Air,MFE,5.312997347480106
+Allegiant Air,MFR,6.460992907801418
+Allegiant Air,MKE,6.305993690851735
+Allegiant Air,MLI,5.995876288659794
+Allegiant Air,MOT,5.954385964912281
+Allegiant Air,MRY,6.481132075471698
+Allegiant Air,MSO,5.84789644012945
+Allegiant Air,MSY,8.375
+Allegiant Air,MTJ,11.033333333333333
+Allegiant Air,MYR,6.139318885448916
+Allegiant Air,OAK,6.489955357142857
+Allegiant Air,OGD,5.368
+Allegiant Air,OGS,7.073170731707317
+Allegiant Air,OKC,6.4515235457063715
+Allegiant Air,OMA,6.732530120481928
+Allegiant Air,ORF,5.717868338557993
+Allegiant Air,OWB,6.91588785046729
+Allegiant Air,PBG,5.904365904365904
+Allegiant Air,PGD,6.922185750144815
+Allegiant Air,PIA,5.825899280575539
+Allegiant Air,PIE,7.009431420102398
+Allegiant Air,PIT,5.991379310344827
+Allegiant Air,PSC,5.791666666666667
+Allegiant Air,PSM,5.431578947368421
+Allegiant Air,PSP,5.672727272727273
+Allegiant Air,PVD,5.843621399176954
+Allegiant Air,PVU,5.5512104283054
+Allegiant Air,RAP,6.912087912087912
+Allegiant Air,RDU,8.024793388429751
+Allegiant Air,RFD,6.2492492492492495
+Allegiant Air,RIC,9.026022304832713
+Allegiant Air,RNO,6.053691275167785
+Allegiant Air,ROA,5.506172839506172
+Allegiant Air,ROC,8.421621621621622
+Allegiant Air,SAN,6.65587044534413
+Allegiant Air,SAT,8.141242937853107
+Allegiant Air,SAV,6.199165797705944
+Allegiant Air,SBN,5.907993966817497
+Allegiant Air,SCK,6.059782608695652
+Allegiant Air,SDF,7.608839779005525
+Allegiant Air,SFB,6.336245920623224
+Allegiant Air,SGF,6.3466833541927405
+Allegiant Air,SGU,8.25
+Allegiant Air,SHV,9.724137931034482
+Allegiant Air,SJU,9.013333333333334
+Allegiant Air,SMX,5.152941176470589
+Allegiant Air,SPI,5.773109243697479
+Allegiant Air,SRQ,6.117647058823529
+Allegiant Air,STC,9.140845070422536
+Allegiant Air,SWF,6.154255319148936
+Allegiant Air,SYR,6.209302325581396
+Allegiant Air,TOL,5.811797752808989
+Allegiant Air,TRI,7.401315789473684
+Allegiant Air,TTN,5.294117647058823
+Allegiant Air,TUL,7.004926108374384
+Allegiant Air,TUS,5.892857142857143
+Allegiant Air,TYS,6.454135338345865
+Allegiant Air,USA,5.938271604938271
+Allegiant Air,VPS,9.397289586305279
+Allegiant Air,XNA,6.592465753424658
+Allegiant Air,YNG,11.5
+American Airlines Inc.,ABQ,6.036231884057971
+American Airlines Inc.,ALB,3.7325301204819277
+American Airlines Inc.,ANC,4.737373737373737
+American Airlines Inc.,ATL,9.994963738920225
+American Airlines Inc.,AUS,6.495866016535934
+American Airlines Inc.,BDL,5.87535680304472
+American Airlines Inc.,BNA,7.365138233310856
+American Airlines Inc.,BOI,4.616926503340757
+American Airlines Inc.,BOS,7.862183696699063
+American Airlines Inc.,BTV,3.875757575757576
+American Airlines Inc.,BUF,3.6774193548387095
+American Airlines Inc.,BWI,6.445661331086773
+American Airlines Inc.,BZN,6.741379310344827
+American Airlines Inc.,CAE,4.898181818181818
+American Airlines Inc.,CHS,5.933333333333334
+American Airlines Inc.,CLE,7.759005145797599
+American Airlines Inc.,CLT,10.659813548788067
+American Airlines Inc.,CMH,6.236531986531986
+American Airlines Inc.,COS,7.4366666666666665
+American Airlines Inc.,CVG,6.808580858085809
+American Airlines Inc.,DCA,6.929616281534874
+American Airlines Inc.,DEN,8.33365132363463
+American Airlines Inc.,DFW,13.887618007067621
+American Airlines Inc.,DSM,6.214497041420119
+American Airlines Inc.,DTW,9.720825852782765
+American Airlines Inc.,EGE,9.357512953367875
+American Airlines Inc.,ELP,4.4524539877300615
+American Airlines Inc.,EWR,8.46797695696374
+American Airlines Inc.,FAT,5.246006389776358
+American Airlines Inc.,FLL,4.338056680161944
+American Airlines Inc.,GEG,4.7336244541484715
+American Airlines Inc.,GRR,7.178913738019169
+American Airlines Inc.,GSO,6.217054263565892
+American Airlines Inc.,GSP,5.016666666666667
+American Airlines Inc.,GUC,3.9166666666666665
+American Airlines Inc.,HDN,5.52
+American Airlines Inc.,HNL,6.295952782462058
+American Airlines Inc.,IAD,7.408393866020985
+American Airlines Inc.,IAH,9.338195569962183
+American Airlines Inc.,ICT,5.178913738019169
+American Airlines Inc.,ILM,4.523105360443623
+American Airlines Inc.,IND,6.778371954842543
+American Airlines Inc.,JAC,6.7040358744394615
+American Airlines Inc.,JAX,5.833880499015102
+American Airlines Inc.,JFK,10.08674084997989
+American Airlines Inc.,KOA,4.581871345029239
+American Airlines Inc.,LAS,7.881151832460733
+American Airlines Inc.,LAX,12.619108133086876
+American Airlines Inc.,LBB,6.036585365853658
+American Airlines Inc.,LGA,7.721348568842629
+American Airlines Inc.,LIH,6.351230425055928
+American Airlines Inc.,LIT,5.0
+American Airlines Inc.,MCI,5.3524804177545695
+American Airlines Inc.,MCO,9.876035339591386
+American Airlines Inc.,MDT,5.409252669039146
+American Airlines Inc.,MEM,5.2439530062197655
+American Airlines Inc.,MFE,4.413043478260869
+American Airlines Inc.,MHT,4.959770114942529
+American Airlines Inc.,MIA,10.498276192300326
+American Airlines Inc.,MKE,4.353760445682451
+American Airlines Inc.,MLB,3.765625
+American Airlines Inc.,MSP,5.34789972899729
+American Airlines Inc.,MSY,5.287193648602002
+American Airlines Inc.,MTJ,13.4
+American Airlines Inc.,MYR,4.279742765273312
+American Airlines Inc.,OAK,6.0770975056689345
+American Airlines Inc.,OGG,6.538759689922481
+American Airlines Inc.,OKC,5.7081395348837205
+American Airlines Inc.,OMA,5.294041450777202
+American Airlines Inc.,ONT,6.019909502262443
+American Airlines Inc.,ORD,15.311426213519393
+American Airlines Inc.,ORF,4.595634095634096
+American Airlines Inc.,PBI,4.732174955062912
+American Airlines Inc.,PDX,4.812256267409471
+American Airlines Inc.,PHL,8.199115044247788
+American Airlines Inc.,PHX,9.324508890958272
+American Airlines Inc.,PIT,5.397430750702529
+American Airlines Inc.,PNS,4.708333333333333
+American Airlines Inc.,PSP,5.785219399538106
+American Airlines Inc.,PVD,4.226677577741407
+American Airlines Inc.,PWM,3.5859519408502774
+American Airlines Inc.,RDU,5.254936708860759
+American Airlines Inc.,RIC,6.290322580645161
+American Airlines Inc.,RNO,5.213008130081301
+American Airlines Inc.,RSW,4.666666666666667
+American Airlines Inc.,SAN,4.5929035752979415
+American Airlines Inc.,SAT,5.137931034482759
+American Airlines Inc.,SAV,5.73721340388007
+American Airlines Inc.,SBA,4.0
+American Airlines Inc.,SEA,11.70939226519337
+American Airlines Inc.,SFO,7.2294935805991445
+American Airlines Inc.,SJC,4.469586374695864
+American Airlines Inc.,SJU,7.171428571428572
+American Airlines Inc.,SLC,6.615428247305729
+American Airlines Inc.,SMF,6.645348837209302
+American Airlines Inc.,SNA,7.203913894324853
+American Airlines Inc.,SRQ,3.6153846153846154
+American Airlines Inc.,STL,5.18310322156476
+American Airlines Inc.,STT,4.425474254742547
+American Airlines Inc.,STX,3.6517857142857144
+American Airlines Inc.,SYR,4.190298507462686
+American Airlines Inc.,TPA,5.48421893727527
+American Airlines Inc.,TUL,4.947327044025157
+American Airlines Inc.,TUS,5.443931398416886
+American Airlines Inc.,VPS,9.790123456790123
+American Airlines Inc.,XNA,5.697247706422019
+Cape Air,GUM,5.029177718832892
+Cape Air,ROP,4.6490066225165565
+Cape Air,SPN,4.765333333333333
+Capital Cargo International,ABE,4.668769716088328
+Capital Cargo International,AGS,4.889763779527559
+Capital Cargo International,ALB,4.730769230769231
+Capital Cargo International,ART,6.072243346007604
+Capital Cargo International,AVL,4.666666666666667
+Capital Cargo International,AVP,5.609958506224066
+Capital Cargo International,BDL,6.589285714285714
+Capital Cargo International,BGR,5.409836065573771
+Capital Cargo International,BHM,4.640776699029126
+Capital Cargo International,BNA,7.958333333333333
+Capital Cargo International,BOS,10.762820512820513
+Capital Cargo International,BTV,5.048582995951417
+Capital Cargo International,BUF,4.488095238095238
+Capital Cargo International,BWI,8.109919571045577
+Capital Cargo International,CAE,5.32703213610586
+Capital Cargo International,CHA,5.984615384615385
+Capital Cargo International,CHO,4.610320284697509
+Capital Cargo International,CHS,7.771812080536913
+Capital Cargo International,CLE,8.040632054176072
+Capital Cargo International,CLT,14.519834425664023
+Capital Cargo International,CMH,8.055555555555555
+Capital Cargo International,DTW,10.907949790794978
+Capital Cargo International,ERI,4.760869565217392
+Capital Cargo International,EWN,3.9375
+Capital Cargo International,FAY,5.090909090909091
+Capital Cargo International,FLO,6.586826347305389
+Capital Cargo International,FWA,6.247422680412371
+Capital Cargo International,GRR,8.428571428571429
+Capital Cargo International,GSO,7.389645776566757
+Capital Cargo International,GSP,4.7
+Capital Cargo International,HTS,4.25
+Capital Cargo International,ILM,6.447653429602888
+Capital Cargo International,IND,9.176470588235293
+Capital Cargo International,IPT,6.567213114754098
+Capital Cargo International,ISP,6.108958837772397
+Capital Cargo International,ITH,6.4054726368159205
+Capital Cargo International,JFK,7.818181818181818
+Capital Cargo International,LEX,5.468546637744034
+Capital Cargo International,LYH,5.7272727272727275
+Capital Cargo International,MDT,6.431635388739946
+Capital Cargo International,MGM,4.76953125
+Capital Cargo International,MHT,6.0823244552058116
+Capital Cargo International,MKE,6.5018587360594795
+Capital Cargo International,MYR,6.645161290322581
+Capital Cargo International,OAJ,4.2485549132947975
+Capital Cargo International,ORF,5.680412371134021
+Capital Cargo International,ORH,6.044303797468355
+Capital Cargo International,PGV,5.178743961352657
+Capital Cargo International,PHF,5.798041615667075
+Capital Cargo International,PHL,8.25603378921963
+Capital Cargo International,PIT,7.0
+Capital Cargo International,PVD,4.666666666666667
+Capital Cargo International,PWM,4.8108108108108105
+Capital Cargo International,RIC,6.986078886310905
+Capital Cargo International,ROA,6.916730917501927
+Capital Cargo International,ROC,6.1537242472266245
+Capital Cargo International,SAV,9.529411764705882
+Capital Cargo International,SBY,5.006888633754305
+Capital Cargo International,SCE,5.122641509433962
+Capital Cargo International,SDF,22.545454545454547
+Capital Cargo International,SWF,5.766265060240964
+Capital Cargo International,SYR,4.158208955223881
+Capital Cargo International,TRI,5.165820642978003
+Capital Cargo International,TYS,5.412698412698413
+Comair Inc.,ABE,4.193333333333333
+Comair Inc.,AGS,4.006738544474394
+Comair Inc.,ALB,3.330895795246801
+Comair Inc.,ART,4.68
+Comair Inc.,ATL,8.963531669865644
+Comair Inc.,AUS,6.666666666666667
+Comair Inc.,AVL,3.9847036328871894
+Comair Inc.,AVP,4.491646778042959
+Comair Inc.,BDL,4.9325997248968365
+Comair Inc.,BGR,4.649289099526066
+Comair Inc.,BHM,3.04
+Comair Inc.,BNA,6.317391304347826
+Comair Inc.,BTR,4.431034482758621
+Comair Inc.,BTV,4.424311926605505
+Comair Inc.,BUF,3.0172413793103448
+Comair Inc.,BWI,5.919354838709677
+Comair Inc.,CAE,4.280075187969925
+Comair Inc.,CAK,5.096470588235294
+Comair Inc.,CHA,5.757823129251701
+Comair Inc.,CHO,3.6235864297253637
+Comair Inc.,CHS,5.778202676864245
+Comair Inc.,CID,5.4727891156462585
+Comair Inc.,CLE,7.12565445026178
+Comair Inc.,CLT,14.893453876641711
+Comair Inc.,CMH,6.2952755905511815
+Comair Inc.,CRW,3.3158878504672895
+Comair Inc.,CVG,5.365349264705882
+Comair Inc.,DAB,4.201754385964913
+Comair Inc.,DAY,4.514126264387862
+Comair Inc.,DCA,6.2206489675516226
+Comair Inc.,DSM,5.611226611226611
+Comair Inc.,DTW,9.379562043795621
+Comair Inc.,EVV,3.7679180887372015
+Comair Inc.,EWN,3.625
+Comair Inc.,FAY,4.132743362831858
+Comair Inc.,FWA,4.159420289855072
+Comair Inc.,GNV,3.7525597269624575
+Comair Inc.,GPT,4.929078014184397
+Comair Inc.,GRR,7.408983451536643
+Comair Inc.,GSO,5.892969569779643
+Comair Inc.,GSP,3.5668341708542712
+Comair Inc.,HPN,5.0614136732329085
+Comair Inc.,HSV,4.748387096774193
+Comair Inc.,HTS,4.608695652173913
+Comair Inc.,HVN,3.272952853598015
+Comair Inc.,IAD,6.360975609756098
+Comair Inc.,ILM,3.9718640093786637
+Comair Inc.,IND,6.4424635332252835
+Comair Inc.,ITH,2.5
+Comair Inc.,JAN,4.707112970711297
+Comair Inc.,JAX,5.050301810865191
+Comair Inc.,JFK,8.08860759493671
+Comair Inc.,LEX,4.339116719242902
+Comair Inc.,LGA,9.550206327372765
+Comair Inc.,LIT,6.444866920152092
+Comair Inc.,LYH,3.9147869674185465
+Comair Inc.,MCI,4.22093023255814
+Comair Inc.,MDT,5.603833865814696
+Comair Inc.,MEM,4.03030303030303
+Comair Inc.,MGM,3.35546875
+Comair Inc.,MHT,4.812236286919831
+Comair Inc.,MKE,4.390018484288355
+Comair Inc.,MLB,3.6875
+Comair Inc.,MOB,3.9731800766283527
+Comair Inc.,MSN,4.780033840947547
+Comair Inc.,MSY,6.9
+Comair Inc.,MYR,3.8564727954971856
+Comair Inc.,OAJ,3.2744186046511627
+Comair Inc.,OKC,5.225589225589226
+Comair Inc.,OMA,4.302013422818792
+Comair Inc.,ORD,11.842720510095642
+Comair Inc.,ORF,4.043454038997215
+Comair Inc.,PGV,2.8957219251336896
+Comair Inc.,PHF,4.821705426356589
+Comair Inc.,PHL,6.8727084053960565
+Comair Inc.,PIA,4.8310344827586205
+Comair Inc.,PIT,5.062138728323699
+Comair Inc.,PNS,3.9740853658536586
+Comair Inc.,PVD,3.6710875331564985
+Comair Inc.,PWM,3.323529411764706
+Comair Inc.,RAP,6.769230769230769
+Comair Inc.,RDU,5.624521072796935
+Comair Inc.,RIC,5.932203389830509
+Comair Inc.,ROA,4.72093023255814
+Comair Inc.,ROC,4.7295454545454545
+Comair Inc.,SAT,3.4471544715447155
+Comair Inc.,SAV,5.441693811074918
+Comair Inc.,SDF,7.7011197243755385
+Comair Inc.,SHV,6.230508474576271
+Comair Inc.,SRQ,3.9794776119402986
+Comair Inc.,STL,4.506738544474394
+Comair Inc.,SYR,3.7537993920972643
+Comair Inc.,TLH,4.302134646962233
+Comair Inc.,TOL,3.0273972602739727
+Comair Inc.,TRI,4.896551724137931
+Comair Inc.,TUL,4.42
+Comair Inc.,TYS,4.489932885906041
+Comair Inc.,VPS,7.575704225352113
+Comair Inc.,XNA,5.402234636871508
+"Commutair Aka Champlain Enterprises, Inc.",ACK,8.513966480446927
+"Commutair Aka Champlain Enterprises, Inc.",ALB,5.180831826401446
+"Commutair Aka Champlain Enterprises, Inc.",AVL,4.916666666666667
+"Commutair Aka Champlain Enterprises, Inc.",AVP,4.972972972972973
+"Commutair Aka Champlain Enterprises, Inc.",BDL,6.2
+"Commutair Aka Champlain Enterprises, Inc.",BGR,4.3478260869565215
+"Commutair Aka Champlain Enterprises, Inc.",BNA,8.956521739130435
+"Commutair Aka Champlain Enterprises, Inc.",BTV,5.02713567839196
+"Commutair Aka Champlain Enterprises, Inc.",BUF,5.16403785488959
+"Commutair Aka Champlain Enterprises, Inc.",BWI,6.312849162011173
+"Commutair Aka Champlain Enterprises, Inc.",CAE,4.0
+"Commutair Aka Champlain Enterprises, Inc.",CHO,4.53475935828877
+"Commutair Aka Champlain Enterprises, Inc.",CHS,6.89453125
+"Commutair Aka Champlain Enterprises, Inc.",CLE,6.452
+"Commutair Aka Champlain Enterprises, Inc.",CMH,6.955165692007797
+"Commutair Aka Champlain Enterprises, Inc.",CRW,6.956521739130435
+"Commutair Aka Champlain Enterprises, Inc.",DAY,11.478260869565217
+"Commutair Aka Champlain Enterprises, Inc.",ELM,5.495918367346939
+"Commutair Aka Champlain Enterprises, Inc.",EWR,11.411964095160378
+"Commutair Aka Champlain Enterprises, Inc.",FAY,6.086538461538462
+"Commutair Aka Champlain Enterprises, Inc.",GRR,5.349716446124764
+"Commutair Aka Champlain Enterprises, Inc.",GSO,7.419354838709677
+"Commutair Aka Champlain Enterprises, Inc.",GSP,4.873517786561265
+"Commutair Aka Champlain Enterprises, Inc.",IAD,7.067513200905205
+"Commutair Aka Champlain Enterprises, Inc.",IND,6.797297297297297
+"Commutair Aka Champlain Enterprises, Inc.",ITH,4.479738562091503
+"Commutair Aka Champlain Enterprises, Inc.",JAX,5.575308641975309
+"Commutair Aka Champlain Enterprises, Inc.",LEX,5.17741935483871
+"Commutair Aka Champlain Enterprises, Inc.",MDT,4.544097693351425
+"Commutair Aka Champlain Enterprises, Inc.",MEM,6.046770601336303
+"Commutair Aka Champlain Enterprises, Inc.",MHT,6.030188679245283
+"Commutair Aka Champlain Enterprises, Inc.",MKE,6.946666666666666
+"Commutair Aka Champlain Enterprises, Inc.",ORF,5.271889400921659
+"Commutair Aka Champlain Enterprises, Inc.",PHL,9.866666666666667
+"Commutair Aka Champlain Enterprises, Inc.",PQI,6.223367697594502
+"Commutair Aka Champlain Enterprises, Inc.",PVD,4.79476861167002
+"Commutair Aka Champlain Enterprises, Inc.",PWM,4.400547445255475
+"Commutair Aka Champlain Enterprises, Inc.",RIC,7.786536758193091
+"Commutair Aka Champlain Enterprises, Inc.",ROA,9.305309734513274
+"Commutair Aka Champlain Enterprises, Inc.",ROC,7.296442687747035
+"Commutair Aka Champlain Enterprises, Inc.",SAV,5.595555555555555
+"Commutair Aka Champlain Enterprises, Inc.",SBN,6.357142857142857
+"Commutair Aka Champlain Enterprises, Inc.",SCE,4.406593406593407
+"Commutair Aka Champlain Enterprises, Inc.",SDF,9.595419847328245
+"Commutair Aka Champlain Enterprises, Inc.",STL,5.787301587301587
+"Commutair Aka Champlain Enterprises, Inc.",SYR,6.429584599797366
+"Commutair Aka Champlain Enterprises, Inc.",TYS,4.294478527607362
+Compass Airlines,ABQ,7.076751946607342
+Compass Airlines,AUS,8.24
+Compass Airlines,BOI,5.575757575757576
+Compass Airlines,BUR,5.595092024539877
+Compass Airlines,BZN,6.137931034482759
+Compass Airlines,DEN,10.482625482625483
+Compass Airlines,DFW,11.466367713004484
+Compass Airlines,ELP,4.801324503311259
+Compass Airlines,EUG,4.957393483709273
+Compass Airlines,FAI,3.730769230769231
+Compass Airlines,FAT,5.488888888888889
+Compass Airlines,FCA,4.038834951456311
+Compass Airlines,GEG,4.757292882147024
+Compass Airlines,HLN,5.0
+Compass Airlines,IAH,10.977653631284916
+Compass Airlines,LAS,8.627210884353742
+Compass Airlines,LAX,13.99164539336273
+Compass Airlines,LGB,5.900900900900901
+Compass Airlines,MCI,7.066666666666666
+Compass Airlines,MFR,6.817073170731708
+Compass Airlines,MSO,11.833333333333334
+Compass Airlines,MTJ,23.333333333333332
+Compass Airlines,OAK,4.839357429718875
+Compass Airlines,OKC,8.109550561797754
+Compass Airlines,OMA,5.3088235294117645
+Compass Airlines,ONT,4.36
+Compass Airlines,PDX,5.281594571670907
+Compass Airlines,PHX,6.313725490196078
+Compass Airlines,PSC,5.6552217453505005
+Compass Airlines,PSP,7.09375
+Compass Airlines,RDM,5.5814814814814815
+Compass Airlines,RNO,5.353728489483748
+Compass Airlines,SAN,5.108374384236453
+Compass Airlines,SAT,5.374787052810903
+Compass Airlines,SEA,10.394079143112169
+Compass Airlines,SFO,7.544827586206897
+Compass Airlines,SJC,5.386495176848874
+Compass Airlines,SLC,9.171333824613118
+Compass Airlines,SMF,6.4051401869158875
+Compass Airlines,SNA,9.625
+Compass Airlines,STL,5.790697674418604
+Compass Airlines,TUS,5.274111675126903
+Compass Airlines,XNA,5.194630872483222
+Delta Air Lines Inc.,ABE,4.841176470588235
+Delta Air Lines Inc.,ABQ,5.833333333333333
+Delta Air Lines Inc.,AGS,4.62004662004662
+Delta Air Lines Inc.,ALB,4.107091172214182
+Delta Air Lines Inc.,ANC,3.729619565217391
+Delta Air Lines Inc.,ATL,8.394175392121522
+Delta Air Lines Inc.,ATW,5.978142076502732
+Delta Air Lines Inc.,AUS,7.279346622369879
+Delta Air Lines Inc.,AVL,4.787465940054496
+Delta Air Lines Inc.,AVP,4.5813953488372094
+Delta Air Lines Inc.,BDL,5.123300515705579
+Delta Air Lines Inc.,BHM,3.135519801980198
+Delta Air Lines Inc.,BIL,3.9491525423728815
+Delta Air Lines Inc.,BIS,3.9794871794871796
+Delta Air Lines Inc.,BNA,6.882210812443371
+Delta Air Lines Inc.,BOI,4.275280898876405
+Delta Air Lines Inc.,BOS,9.529956689124157
+Delta Air Lines Inc.,BTR,4.0215827338129495
+Delta Air Lines Inc.,BTV,7.082758620689655
+Delta Air Lines Inc.,BUF,5.419249592169657
+Delta Air Lines Inc.,BWI,6.226873536299766
+Delta Air Lines Inc.,BZN,4.364885496183206
+Delta Air Lines Inc.,CAE,4.291943127962085
+Delta Air Lines Inc.,CAK,5.097276264591439
+Delta Air Lines Inc.,CHA,4.68735632183908
+Delta Air Lines Inc.,CHO,4.0606060606060606
+Delta Air Lines Inc.,CHS,5.785231409256371
+Delta Air Lines Inc.,CID,6.125
+Delta Air Lines Inc.,CLE,7.277845036319612
+Delta Air Lines Inc.,CLT,7.706902086677368
+Delta Air Lines Inc.,CMH,5.019584569732937
+Delta Air Lines Inc.,COS,6.80625
+Delta Air Lines Inc.,CRW,3.5476190476190474
+Delta Air Lines Inc.,CVG,4.959580052493438
+Delta Air Lines Inc.,DAB,3.3590686274509802
+Delta Air Lines Inc.,DAL,6.516324062877872
+Delta Air Lines Inc.,DAY,5.350148367952523
+Delta Air Lines Inc.,DCA,4.730537586437653
+Delta Air Lines Inc.,DEN,8.116857899382172
+Delta Air Lines Inc.,DFW,9.926807760141093
+Delta Air Lines Inc.,DSM,4.082815734989648
+Delta Air Lines Inc.,DTW,7.464881716486338
+Delta Air Lines Inc.,ECP,3.512987012987013
+Delta Air Lines Inc.,EGE,6.521739130434782
+Delta Air Lines Inc.,ELP,3.745049504950495
+Delta Air Lines Inc.,EVV,4.56198347107438
+Delta Air Lines Inc.,EWR,6.278754578754579
+Delta Air Lines Inc.,EYW,3.13373253493014
+Delta Air Lines Inc.,FAI,3.4037267080745344
+Delta Air Lines Inc.,FAR,5.4723032069970845
+Delta Air Lines Inc.,FAY,5.179190751445087
+Delta Air Lines Inc.,FCA,3.931297709923664
+Delta Air Lines Inc.,FLL,5.00468515742129
+Delta Air Lines Inc.,FNT,4.179372197309417
+Delta Air Lines Inc.,FSD,5.5514018691588785
+Delta Air Lines Inc.,GEG,4.330316742081448
+Delta Air Lines Inc.,GNV,4.808510638297872
+Delta Air Lines Inc.,GPT,3.89010989010989
+Delta Air Lines Inc.,GRB,4.729166666666667
+Delta Air Lines Inc.,GRR,4.343447385409942
+Delta Air Lines Inc.,GSO,5.575094339622641
+Delta Air Lines Inc.,GSP,3.719495091164095
+Delta Air Lines Inc.,HDN,5.506172839506172
+Delta Air Lines Inc.,HNL,5.4163623082542
+Delta Air Lines Inc.,HOU,4.519493177387914
+Delta Air Lines Inc.,HPN,6.3887323943661976
+Delta Air Lines Inc.,HSV,4.492802709568163
+Delta Air Lines Inc.,IAD,5.723624595469255
+Delta Air Lines Inc.,IAH,7.282994090610637
+Delta Air Lines Inc.,ICT,3.819253438113949
+Delta Air Lines Inc.,ILM,3.5875
+Delta Air Lines Inc.,IND,5.537767756482525
+Delta Air Lines Inc.,JAC,3.834234234234234
+Delta Air Lines Inc.,JAN,4.977969348659004
+Delta Air Lines Inc.,JAX,4.370877944325482
+Delta Air Lines Inc.,JFK,11.7052356740415
+Delta Air Lines Inc.,JNU,3.0
+Delta Air Lines Inc.,KOA,3.713815789473684
+Delta Air Lines Inc.,LAS,7.245484020379806
+Delta Air Lines Inc.,LAX,10.685210554529752
+Delta Air Lines Inc.,LEX,4.492581602373887
+Delta Air Lines Inc.,LFT,5.735294117647059
+Delta Air Lines Inc.,LGA,8.651823654390935
+Delta Air Lines Inc.,LIH,6.31294964028777
+Delta Air Lines Inc.,LIT,3.9442307692307694
+Delta Air Lines Inc.,MCI,5.931282346175963
+Delta Air Lines Inc.,MCO,9.11062906724512
+Delta Air Lines Inc.,MDT,4.33402489626556
+Delta Air Lines Inc.,MDW,5.375954198473282
+Delta Air Lines Inc.,MEM,4.433970653623833
+Delta Air Lines Inc.,MHT,6.105485232067511
+Delta Air Lines Inc.,MIA,7.044045676998369
+Delta Air Lines Inc.,MKE,5.274609375
+Delta Air Lines Inc.,MLB,4.654320987654321
+Delta Air Lines Inc.,MOB,4.023668639053255
+Delta Air Lines Inc.,MSN,3.9243924392439244
+Delta Air Lines Inc.,MSO,6.2026143790849675
+Delta Air Lines Inc.,MSP,5.221847884817087
+Delta Air Lines Inc.,MSY,5.447908339994671
+Delta Air Lines Inc.,MTJ,5.0
+Delta Air Lines Inc.,MYR,3.7119205298013247
+Delta Air Lines Inc.,OAK,4.805714285714286
+Delta Air Lines Inc.,OGG,4.958105646630237
+Delta Air Lines Inc.,OKC,3.7068062827225132
+Delta Air Lines Inc.,OMA,4.3126593033135086
+Delta Air Lines Inc.,ONT,4.093959731543624
+Delta Air Lines Inc.,ORD,12.157859827548087
+Delta Air Lines Inc.,ORF,3.9044540229885056
+Delta Air Lines Inc.,PBI,4.520474137931035
+Delta Air Lines Inc.,PDX,4.7592221904489564
+Delta Air Lines Inc.,PHF,4.421621621621622
+Delta Air Lines Inc.,PHL,6.454630495790458
+Delta Air Lines Inc.,PHX,5.174932614555256
+Delta Air Lines Inc.,PIT,6.71604305484367
+Delta Air Lines Inc.,PNS,3.8350824587706147
+Delta Air Lines Inc.,PSC,4.9868421052631575
+Delta Air Lines Inc.,PSP,5.702898550724638
+Delta Air Lines Inc.,PVD,4.358041958041958
+Delta Air Lines Inc.,PWM,3.7774193548387096
+Delta Air Lines Inc.,RAP,4.396396396396397
+Delta Air Lines Inc.,RDU,6.18179674605046
+Delta Air Lines Inc.,RIC,5.539754363283775
+Delta Air Lines Inc.,RNO,4.601023017902813
+Delta Air Lines Inc.,ROA,5.608695652173913
+Delta Air Lines Inc.,ROC,5.490693739424704
+Delta Air Lines Inc.,RSW,4.18584729981378
+Delta Air Lines Inc.,SAN,5.074894514767933
+Delta Air Lines Inc.,SAT,4.973756150902132
+Delta Air Lines Inc.,SAV,4.861368909512761
+Delta Air Lines Inc.,SBN,6.166666666666667
+Delta Air Lines Inc.,SDF,5.25544267053701
+Delta Air Lines Inc.,SEA,9.724414501122874
+Delta Air Lines Inc.,SFO,9.374908931953955
+Delta Air Lines Inc.,SJC,4.20373613543491
+Delta Air Lines Inc.,SJU,5.8124410933082
+Delta Air Lines Inc.,SLC,7.338702938582238
+Delta Air Lines Inc.,SMF,6.22593476531424
+Delta Air Lines Inc.,SNA,8.454192922927776
+Delta Air Lines Inc.,SRQ,4.131601731601732
+Delta Air Lines Inc.,STL,4.876462938881665
+Delta Air Lines Inc.,STT,3.8084291187739465
+Delta Air Lines Inc.,STX,3.0555555555555554
+Delta Air Lines Inc.,SYR,4.8978779840848805
+Delta Air Lines Inc.,TLH,3.764339152119701
+Delta Air Lines Inc.,TPA,4.352962043277758
+Delta Air Lines Inc.,TRI,4.238095238095238
+Delta Air Lines Inc.,TUL,4.745916515426497
+Delta Air Lines Inc.,TUS,4.5456475583864115
+Delta Air Lines Inc.,TVC,4.542168674698795
+Delta Air Lines Inc.,TYS,3.6331811263318112
+Delta Air Lines Inc.,VPS,7.183613030602172
+Delta Air Lines Inc.,XNA,6.378378378378378
+Empire Airlines Inc.,HNL,6.356028368794326
+Empire Airlines Inc.,JHM,3.033980582524272
+Empire Airlines Inc.,LNY,1.83125
+Empire Airlines Inc.,MKK,1.9166666666666667
+Endeavor Air Inc.,ABE,5.786821705426356
+Endeavor Air Inc.,ABY,3.672268907563025
+Endeavor Air Inc.,ACK,40.0
+Endeavor Air Inc.,AEX,3.610126582278481
+Endeavor Air Inc.,AGS,4.5855263157894735
+Endeavor Air Inc.,ALB,4.11864406779661
+Endeavor Air Inc.,ATL,9.099539496989019
+Endeavor Air Inc.,ATW,5.443609022556391
+Endeavor Air Inc.,AUS,7.382716049382716
+Endeavor Air Inc.,AVL,4.1625
+Endeavor Air Inc.,AVP,4.035532994923858
+Endeavor Air Inc.,AZO,3.6666666666666665
+Endeavor Air Inc.,BDL,5.48868778280543
+Endeavor Air Inc.,BGR,4.555189456342669
+Endeavor Air Inc.,BHM,4.109704641350211
+Endeavor Air Inc.,BIS,4.022222222222222
+Endeavor Air Inc.,BMI,3.8633540372670807
+Endeavor Air Inc.,BNA,7.875213675213676
+Endeavor Air Inc.,BOS,9.864
+Endeavor Air Inc.,BQK,3.5847457627118646
+Endeavor Air Inc.,BTR,3.781869688385269
+Endeavor Air Inc.,BTV,6.27411575562701
+Endeavor Air Inc.,BUF,6.03843466107617
+Endeavor Air Inc.,BWI,6.651943462897527
+Endeavor Air Inc.,CAE,5.324427480916031
+Endeavor Air Inc.,CAK,4.607142857142857
+Endeavor Air Inc.,CHA,5.447058823529412
+Endeavor Air Inc.,CHO,4.795366795366795
+Endeavor Air Inc.,CHS,6.688679245283019
+Endeavor Air Inc.,CID,5.745614035087719
+Endeavor Air Inc.,CLE,8.009834050399508
+Endeavor Air Inc.,CLT,8.96015325670498
+Endeavor Air Inc.,CMH,5.044117647058823
+Endeavor Air Inc.,CRW,3.265486725663717
+Endeavor Air Inc.,CSG,3.395147313691508
+Endeavor Air Inc.,CVG,5.105749293119699
+Endeavor Air Inc.,CWA,3.9972375690607733
+Endeavor Air Inc.,DAY,5.71875
+Endeavor Air Inc.,DCA,5.59041394335512
+Endeavor Air Inc.,DEN,14.2
+Endeavor Air Inc.,DFW,11.081981981981983
+Endeavor Air Inc.,DHN,8.75
+Endeavor Air Inc.,DLH,10.0
+Endeavor Air Inc.,DSM,5.488538681948424
+Endeavor Air Inc.,DTW,8.554745308310991
+Endeavor Air Inc.,ELM,3.6578947368421053
+Endeavor Air Inc.,ERI,3.0
+Endeavor Air Inc.,EVV,4.74633431085044
+Endeavor Air Inc.,EWN,3.319298245614035
+Endeavor Air Inc.,EWR,6.8739789964994165
+Endeavor Air Inc.,EYW,4.015873015873016
+Endeavor Air Inc.,FAR,6.552631578947368
+Endeavor Air Inc.,FAY,5.188679245283019
+Endeavor Air Inc.,FCA,3.227272727272727
+Endeavor Air Inc.,FLL,5.324324324324325
+Endeavor Air Inc.,FNT,3.676
+Endeavor Air Inc.,FSD,5.48
+Endeavor Air Inc.,FSM,4.225806451612903
+Endeavor Air Inc.,GFK,4.357142857142857
+Endeavor Air Inc.,GNV,3.80564263322884
+Endeavor Air Inc.,GPT,3.875
+Endeavor Air Inc.,GRB,4.287878787878788
+Endeavor Air Inc.,GRK,3.4444444444444446
+Endeavor Air Inc.,GRR,4.114649681528663
+Endeavor Air Inc.,GSO,6.42443729903537
+Endeavor Air Inc.,GSP,3.7517899761336517
+Endeavor Air Inc.,GTF,3.736842105263158
+Endeavor Air Inc.,GTR,3.4652567975830815
+Endeavor Air Inc.,HOU,2.0
+Endeavor Air Inc.,HPN,5.3696
+Endeavor Air Inc.,HRL,2.857142857142857
+Endeavor Air Inc.,HSV,4.444444444444445
+Endeavor Air Inc.,IAD,5.552816901408451
+Endeavor Air Inc.,IAH,7.964747356051704
+Endeavor Air Inc.,ILM,3.4734607218683653
+Endeavor Air Inc.,IND,5.573343848580442
+Endeavor Air Inc.,JAN,4.830508474576271
+Endeavor Air Inc.,JAX,4.503634475597092
+Endeavor Air Inc.,JFK,10.109908168197197
+Endeavor Air Inc.,LAN,4.6923076923076925
+Endeavor Air Inc.,LEX,4.339712918660287
+Endeavor Air Inc.,LFT,5.046632124352332
+Endeavor Air Inc.,LGA,9.41760165512851
+Endeavor Air Inc.,LIT,4.16
+Endeavor Air Inc.,LNK,4.1
+Endeavor Air Inc.,MBS,4.319066147859922
+Endeavor Air Inc.,MCI,6.372549019607843
+Endeavor Air Inc.,MCO,9.039735099337749
+Endeavor Air Inc.,MDT,3.5520833333333335
+Endeavor Air Inc.,MDW,6.0
+Endeavor Air Inc.,MEM,5.058968058968059
+Endeavor Air Inc.,MGM,3.3128964059196617
+Endeavor Air Inc.,MHT,5.392592592592592
+Endeavor Air Inc.,MIA,6.888888888888889
+Endeavor Air Inc.,MKE,5.420318725099602
+Endeavor Air Inc.,MLB,4.0
+Endeavor Air Inc.,MLI,6.266331658291457
+Endeavor Air Inc.,MOB,3.8176470588235296
+Endeavor Air Inc.,MOT,5.572916666666667
+Endeavor Air Inc.,MSN,3.7478070175438596
+Endeavor Air Inc.,MSP,7.061575926248043
+Endeavor Air Inc.,MSY,5.9798850574712645
+Endeavor Air Inc.,MVY,4.0
+Endeavor Air Inc.,MYR,3.425925925925926
+Endeavor Air Inc.,OAJ,3.619341563786008
+Endeavor Air Inc.,OMA,4.360730593607306
+Endeavor Air Inc.,ORD,12.017663043478262
+Endeavor Air Inc.,ORF,4.5490936555891235
+Endeavor Air Inc.,PBI,4.448979591836735
+Endeavor Air Inc.,PHF,4.045112781954887
+Endeavor Air Inc.,PHL,7.2457805907173
+Endeavor Air Inc.,PIA,5.054393305439331
+Endeavor Air Inc.,PIT,7.3421527360192425
+Endeavor Air Inc.,PVD,3.960526315789474
+Endeavor Air Inc.,PWM,5.152808988764045
+Endeavor Air Inc.,RAP,8.0
+Endeavor Air Inc.,RDU,6.6683316683316685
+Endeavor Air Inc.,RIC,8.061926605504587
+Endeavor Air Inc.,ROA,6.4015748031496065
+Endeavor Air Inc.,ROC,5.980574324324325
+Endeavor Air Inc.,RST,4.472972972972973
+Endeavor Air Inc.,RSW,4.1994884910485935
+Endeavor Air Inc.,SAT,5.6181384248210025
+Endeavor Air Inc.,SAV,5.621827411167513
+Endeavor Air Inc.,SBN,4.4245283018867925
+Endeavor Air Inc.,SDF,6.5
+Endeavor Air Inc.,SGF,5.962121212121212
+Endeavor Air Inc.,SHV,4.379699248120301
+Endeavor Air Inc.,SRQ,4.0989010989010985
+Endeavor Air Inc.,STL,5.7877777777777775
+Endeavor Air Inc.,SYR,4.93170007423905
+Endeavor Air Inc.,TLH,3.5255474452554743
+Endeavor Air Inc.,TPA,3.917525773195876
+Endeavor Air Inc.,TRI,4.080882352941177
+Endeavor Air Inc.,TUL,5.26984126984127
+Endeavor Air Inc.,TVC,4.283333333333333
+Endeavor Air Inc.,TYS,3.5200451722190853
+Endeavor Air Inc.,VLD,4.045081967213115
+Endeavor Air Inc.,VPS,8.862068965517242
+Endeavor Air Inc.,XNA,7.013035381750465
+Envoy Air,ABI,3.5484247374562425
+Envoy Air,ABQ,7.96969696969697
+Envoy Air,ACT,3.7395209580838324
+Envoy Air,AEX,2.851015801354402
+Envoy Air,ALB,3.4668508287292816
+Envoy Air,ALO,4.284697508896797
+Envoy Air,AMA,5.0425963488843815
+Envoy Air,ATL,8.421818181818182
+Envoy Air,ATW,3.32
+Envoy Air,AUS,6.5
+Envoy Air,AVP,5.021660649819495
+Envoy Air,AZO,3.446650124069479
+Envoy Air,BDL,6.610169491525424
+Envoy Air,BGR,5.03030303030303
+Envoy Air,BHM,4.348949919224555
+Envoy Air,BIL,3.611842105263158
+Envoy Air,BIS,4.586666666666667
+Envoy Air,BMI,3.85012285012285
+Envoy Air,BNA,7.359615384615385
+Envoy Air,BOI,5.264705882352941
+Envoy Air,BOS,8.134133042529989
+Envoy Air,BPT,4.007751937984496
+Envoy Air,BRO,4.23404255319149
+Envoy Air,BTR,4.378378378378378
+Envoy Air,BTV,4.664
+Envoy Air,BUF,3.1627408993576016
+Envoy Air,BWI,6.491228070175438
+Envoy Air,BZN,4.339869281045751
+Envoy Air,CAE,6.0
+Envoy Air,CAK,5.379310344827586
+Envoy Air,CHA,5.867052023121388
+Envoy Air,CHO,3.996146435452794
+Envoy Air,CHS,6.041811846689895
+Envoy Air,CID,5.3264248704663215
+Envoy Air,CLE,7.842582710779082
+Envoy Air,CLL,3.997297297297297
+Envoy Air,CLT,15.605091383812011
+Envoy Air,CMH,6.807672892478546
+Envoy Air,CMI,4.652806652806653
+Envoy Air,COU,3.9265822784810127
+Envoy Air,CRP,5.286885245901639
+Envoy Air,CVG,6.885306553911205
+Envoy Air,CWA,3.3979591836734695
+Envoy Air,DAY,5.110666666666667
+Envoy Air,DBQ,4.612293144208038
+Envoy Air,DCA,5.833040421792619
+Envoy Air,DFW,12.082033060404758
+Envoy Air,DRT,4.831858407079646
+Envoy Air,DSM,5.746388443017657
+Envoy Air,DTW,10.673118279569893
+Envoy Air,ELP,4.327868852459017
+Envoy Air,EVV,4.0
+Envoy Air,EWN,3.4558823529411766
+Envoy Air,EWR,7.684210526315789
+Envoy Air,EYW,2.8181818181818183
+Envoy Air,FAR,4.533546325878595
+Envoy Air,FAY,4.565217391304348
+Envoy Air,FNT,4.732142857142857
+Envoy Air,FSD,4.734375
+Envoy Air,FSM,3.723849372384937
+Envoy Air,FWA,4.216535433070866
+Envoy Air,GCK,4.23448275862069
+Envoy Air,GGG,4.3165266106442575
+Envoy Air,GJT,3.9512761020881673
+Envoy Air,GNV,4.156133828996283
+Envoy Air,GRB,3.3776223776223775
+Envoy Air,GRI,5.506024096385542
+Envoy Air,GRK,4.180349932705249
+Envoy Air,GRR,6.5814931650893795
+Envoy Air,GSO,6.931292941911305
+Envoy Air,GSP,4.9395770392749245
+Envoy Air,HOU,4.603448275862069
+Envoy Air,HSV,5.297413793103448
+Envoy Air,HTS,3.201550387596899
+Envoy Air,IAH,9.297658862876254
+Envoy Air,ICT,4.0
+Envoy Air,ILM,5.41005291005291
+Envoy Air,IND,6.349065880039332
+Envoy Air,JAN,4.409090909090909
+Envoy Air,JAX,5.364069952305247
+Envoy Air,JFK,9.924965893587995
+Envoy Air,JLN,5.8
+Envoy Air,LAN,3.2697841726618706
+Envoy Air,LAW,3.421965317919075
+Envoy Air,LBB,4.194444444444445
+Envoy Air,LCH,4.261792452830188
+Envoy Air,LEX,4.997677119628339
+Envoy Air,LFT,4.955882352941177
+Envoy Air,LGA,10.26308943089431
+Envoy Air,LIT,5.109058402860549
+Envoy Air,LRD,3.6655290102389078
+Envoy Air,LSE,3.697802197802198
+Envoy Air,MAF,5.264150943396227
+Envoy Air,MCI,4.2072538860103625
+Envoy Air,MDT,4.599078341013825
+Envoy Air,MEM,4.6305084745762715
+Envoy Air,MFE,3.9727891156462585
+Envoy Air,MGM,3.765807962529274
+Envoy Air,MHK,3.6666666666666665
+Envoy Air,MIA,5.7562470532767565
+Envoy Air,MKE,4.142857142857143
+Envoy Air,MLI,4.7894736842105265
+Envoy Air,MLU,3.7474747474747474
+Envoy Air,MOB,6.0
+Envoy Air,MQT,5.096045197740113
+Envoy Air,MSN,5.01528013582343
+Envoy Air,MSO,5.53757225433526
+Envoy Air,MSP,4.6
+Envoy Air,MSY,4.64
+Envoy Air,MTJ,5.25
+Envoy Air,MYR,4.3125
+Envoy Air,OKC,4.672535211267606
+Envoy Air,OMA,4.378964941569282
+Envoy Air,ORD,13.633970037453183
+Envoy Air,ORF,5.154915590863952
+Envoy Air,PBI,4.408
+Envoy Air,PHL,9.529411764705882
+Envoy Air,PIA,4.447761194029851
+Envoy Air,PIT,5.868234007654456
+Envoy Air,PNS,4.4820393974507535
+Envoy Air,PVD,4.060377358490566
+Envoy Air,PWM,4.605527638190955
+Envoy Air,RDU,7.254143646408839
+Envoy Air,RIC,6.242206235011991
+Envoy Air,ROA,6.352941176470588
+Envoy Air,ROC,4.8700787401574805
+Envoy Air,ROW,4.434782608695652
+Envoy Air,RST,4.196153846153846
+Envoy Air,SAT,3.325
+Envoy Air,SAV,6.061224489795919
+Envoy Air,SDF,8.52962962962963
+Envoy Air,SGF,5.352414136386262
+Envoy Air,SHV,6.622950819672131
+Envoy Air,SJT,3.216867469879518
+Envoy Air,SPI,3.873684210526316
+Envoy Air,SPS,8.02122641509434
+Envoy Air,SRQ,3.3846153846153846
+Envoy Air,STL,4.815
+Envoy Air,SUX,5.662385321100918
+Envoy Air,SWO,4.131284916201118
+Envoy Air,SYR,3.7863501483679527
+Envoy Air,TLH,4.970245795601552
+Envoy Air,TOL,3.133956386292835
+Envoy Air,TPA,5.0
+Envoy Air,TUL,4.301639344262295
+Envoy Air,TVC,3.54040404040404
+Envoy Air,TXK,3.326492537313433
+Envoy Air,TYR,3.7694805194805197
+Envoy Air,TYS,6.5588235294117645
+Envoy Air,VPS,7.285714285714286
+Envoy Air,XNA,5.008069164265129
+ExpressJet Airlines Inc.,ABE,5.874493927125506
+ExpressJet Airlines Inc.,ABQ,8.380645161290323
+ExpressJet Airlines Inc.,AEX,4.29324055666004
+ExpressJet Airlines Inc.,AGS,4.444444444444445
+ExpressJet Airlines Inc.,ALB,5.526315789473684
+ExpressJet Airlines Inc.,AMA,5.098947368421053
+ExpressJet Airlines Inc.,ATL,8.598963394881762
+ExpressJet Airlines Inc.,ATW,5.143939393939394
+ExpressJet Airlines Inc.,AUS,8.666666666666666
+ExpressJet Airlines Inc.,AVL,4.564516129032258
+ExpressJet Airlines Inc.,AVP,4.899244332493703
+ExpressJet Airlines Inc.,AZO,4.3584905660377355
+ExpressJet Airlines Inc.,BDL,6.718446601941747
+ExpressJet Airlines Inc.,BGR,5.753787878787879
+ExpressJet Airlines Inc.,BHM,6.196286472148541
+ExpressJet Airlines Inc.,BMI,3.712574850299401
+ExpressJet Airlines Inc.,BNA,9.953103448275861
+ExpressJet Airlines Inc.,BOS,7.784556720686368
+ExpressJet Airlines Inc.,BRO,5.010526315789473
+ExpressJet Airlines Inc.,BTR,4.496406570841889
+ExpressJet Airlines Inc.,BTV,5.651750972762646
+ExpressJet Airlines Inc.,BUF,6.419437340153452
+ExpressJet Airlines Inc.,BWI,6.902155887230514
+ExpressJet Airlines Inc.,CAE,5.031722054380665
+ExpressJet Airlines Inc.,CAK,8.630914826498422
+ExpressJet Airlines Inc.,CHA,6.330396475770925
+ExpressJet Airlines Inc.,CHO,3.4615384615384617
+ExpressJet Airlines Inc.,CHS,7.559113300492611
+ExpressJet Airlines Inc.,CID,6.233502538071066
+ExpressJet Airlines Inc.,CLE,6.868577075098814
+ExpressJet Airlines Inc.,CLL,5.156488549618321
+ExpressJet Airlines Inc.,CLT,15.578257517347726
+ExpressJet Airlines Inc.,CMH,7.288586635127143
+ExpressJet Airlines Inc.,COS,8.036809815950921
+ExpressJet Airlines Inc.,CRP,4.814401622718052
+ExpressJet Airlines Inc.,CRW,5.856410256410256
+ExpressJet Airlines Inc.,CSG,4.0
+ExpressJet Airlines Inc.,CVG,8.087719298245615
+ExpressJet Airlines Inc.,CWA,5.037037037037037
+ExpressJet Airlines Inc.,DAY,7.13860103626943
+ExpressJet Airlines Inc.,DCA,6.235001657275439
+ExpressJet Airlines Inc.,DFW,11.200099676052828
+ExpressJet Airlines Inc.,DSM,7.0267686424474185
+ExpressJet Airlines Inc.,DTW,8.960468521229869
+ExpressJet Airlines Inc.,ECP,3.6129554655870444
+ExpressJet Airlines Inc.,ELM,5.0
+ExpressJet Airlines Inc.,ELP,4.4141689373297
+ExpressJet Airlines Inc.,ERI,4.714285714285714
+ExpressJet Airlines Inc.,EVV,4.691275167785235
+ExpressJet Airlines Inc.,EWR,11.692928959947256
+ExpressJet Airlines Inc.,EYW,2.781115879828326
+ExpressJet Airlines Inc.,FAR,6.633802816901408
+ExpressJet Airlines Inc.,FLG,3.6666666666666665
+ExpressJet Airlines Inc.,FNT,5.5
+ExpressJet Airlines Inc.,FSD,7.023809523809524
+ExpressJet Airlines Inc.,FSM,3.7916666666666665
+ExpressJet Airlines Inc.,FWA,7.263392857142857
+ExpressJet Airlines Inc.,GNV,4.0
+ExpressJet Airlines Inc.,GPT,4.803003533568905
+ExpressJet Airlines Inc.,GRB,4.772189349112426
+ExpressJet Airlines Inc.,GRI,4.188
+ExpressJet Airlines Inc.,GRK,4.558695652173913
+ExpressJet Airlines Inc.,GRR,6.519558676028084
+ExpressJet Airlines Inc.,GSO,7.6057401812688825
+ExpressJet Airlines Inc.,GSP,5.806060606060606
+ExpressJet Airlines Inc.,GUC,5.884615384615385
+ExpressJet Airlines Inc.,HDN,4.69811320754717
+ExpressJet Airlines Inc.,HOB,5.029717682020802
+ExpressJet Airlines Inc.,HOU,4.523809523809524
+ExpressJet Airlines Inc.,HPN,4.012422360248447
+ExpressJet Airlines Inc.,HRL,4.727083333333334
+ExpressJet Airlines Inc.,HSV,5.960766423357664
+ExpressJet Airlines Inc.,IAD,6.646048109965636
+ExpressJet Airlines Inc.,IAH,8.504800256013654
+ExpressJet Airlines Inc.,ICT,4.620621282220753
+ExpressJet Airlines Inc.,ILM,4.75
+ExpressJet Airlines Inc.,IND,7.848360655737705
+ExpressJet Airlines Inc.,JAC,3.2333333333333334
+ExpressJet Airlines Inc.,JAN,4.503891050583658
+ExpressJet Airlines Inc.,JAX,6.825688073394495
+ExpressJet Airlines Inc.,JLN,4.41578947368421
+ExpressJet Airlines Inc.,LAN,5.9185185185185185
+ExpressJet Airlines Inc.,LAW,3.016216216216216
+ExpressJet Airlines Inc.,LBB,6.716587677725118
+ExpressJet Airlines Inc.,LCH,5.734010152284264
+ExpressJet Airlines Inc.,LEX,4.984799131378936
+ExpressJet Airlines Inc.,LFT,5.517039922103213
+ExpressJet Airlines Inc.,LGA,8.957360991068857
+ExpressJet Airlines Inc.,LIT,7.223380491437081
+ExpressJet Airlines Inc.,LNK,5.0
+ExpressJet Airlines Inc.,LRD,4.28714676390155
+ExpressJet Airlines Inc.,MAF,5.53870458135861
+ExpressJet Airlines Inc.,MCI,6.9182156133829
+ExpressJet Airlines Inc.,MCO,12.0
+ExpressJet Airlines Inc.,MDT,5.0
+ExpressJet Airlines Inc.,MDW,5.5
+ExpressJet Airlines Inc.,MEM,6.22854387656702
+ExpressJet Airlines Inc.,MFE,5.12807881773399
+ExpressJet Airlines Inc.,MHK,3.8956043956043955
+ExpressJet Airlines Inc.,MHT,6.98371335504886
+ExpressJet Airlines Inc.,MKE,8.31862378459237
+ExpressJet Airlines Inc.,MLI,5.321428571428571
+ExpressJet Airlines Inc.,MLU,5.072972972972973
+ExpressJet Airlines Inc.,MOB,5.173659673659674
+ExpressJet Airlines Inc.,MSN,5.854014598540146
+ExpressJet Airlines Inc.,MSP,7.653225806451613
+ExpressJet Airlines Inc.,MSY,6.1923076923076925
+ExpressJet Airlines Inc.,MTJ,5.507246376811594
+ExpressJet Airlines Inc.,MYR,4.0
+ExpressJet Airlines Inc.,OAJ,3.5849056603773586
+ExpressJet Airlines Inc.,OKC,6.713178294573644
+ExpressJet Airlines Inc.,OMA,4.578255675029869
+ExpressJet Airlines Inc.,ORD,14.319757093498064
+ExpressJet Airlines Inc.,ORF,6.1669829222011385
+ExpressJet Airlines Inc.,PHF,4.079365079365079
+ExpressJet Airlines Inc.,PHL,5.0
+ExpressJet Airlines Inc.,PIA,4.402985074626866
+ExpressJet Airlines Inc.,PIT,6.0
+ExpressJet Airlines Inc.,PNS,5.384740259740259
+ExpressJet Airlines Inc.,PVD,5.730077120822622
+ExpressJet Airlines Inc.,PWM,4.948186528497409
+ExpressJet Airlines Inc.,RAP,9.909090909090908
+ExpressJet Airlines Inc.,RDU,7.123809523809523
+ExpressJet Airlines Inc.,RIC,8.39073330901131
+ExpressJet Airlines Inc.,ROA,6.285714285714286
+ExpressJet Airlines Inc.,ROC,8.828516377649326
+ExpressJet Airlines Inc.,ROW,3.8114754098360657
+ExpressJet Airlines Inc.,RST,4.317180616740088
+ExpressJet Airlines Inc.,SAF,3.9397590361445785
+ExpressJet Airlines Inc.,SAT,6.666666666666667
+ExpressJet Airlines Inc.,SAV,6.672774869109948
+ExpressJet Airlines Inc.,SBN,4.338648443432042
+ExpressJet Airlines Inc.,SCE,6.0
+ExpressJet Airlines Inc.,SDF,9.420927467300832
+ExpressJet Airlines Inc.,SGF,6.975359342915811
+ExpressJet Airlines Inc.,SHV,5.041454545454545
+ExpressJet Airlines Inc.,SLC,13.0
+ExpressJet Airlines Inc.,STL,6.784266984505363
+ExpressJet Airlines Inc.,SYR,6.7969543147208125
+ExpressJet Airlines Inc.,TLH,3.3617021276595747
+ExpressJet Airlines Inc.,TRI,3.5
+ExpressJet Airlines Inc.,TUL,5.107095046854083
+ExpressJet Airlines Inc.,TUS,6.864864864864865
+ExpressJet Airlines Inc.,TVC,7.373493975903615
+ExpressJet Airlines Inc.,TYS,4.973308789691671
+ExpressJet Airlines Inc.,VPS,7.16914749661705
+ExpressJet Airlines Inc.,XNA,8.590673575129534
+Frontier Airlines Inc.,ABQ,9.662162162162161
+Frontier Airlines Inc.,ALB,8.653846153846153
+Frontier Airlines Inc.,ATL,10.912443778110944
+Frontier Airlines Inc.,AUS,12.312581063553827
+Frontier Airlines Inc.,BHM,8.409090909090908
+Frontier Airlines Inc.,BIS,6.591836734693878
+Frontier Airlines Inc.,BKG,6.942028985507246
+Frontier Airlines Inc.,BMI,9.083333333333334
+Frontier Airlines Inc.,BNA,9.676579925650557
+Frontier Airlines Inc.,BOI,6.673469387755102
+Frontier Airlines Inc.,BUF,8.746913580246913
+Frontier Airlines Inc.,BZN,5.97029702970297
+Frontier Airlines Inc.,CHS,9.885338345864662
+Frontier Airlines Inc.,CID,9.41
+Frontier Airlines Inc.,CLE,9.448574969021065
+Frontier Airlines Inc.,CLT,10.351477449455677
+Frontier Airlines Inc.,CMH,8.7871198568873
+Frontier Airlines Inc.,COS,7.5781071835803875
+Frontier Airlines Inc.,CVG,8.652439024390244
+Frontier Airlines Inc.,DCA,6.272388059701493
+Frontier Airlines Inc.,DEN,12.118966068411197
+Frontier Airlines Inc.,DFW,10.553930530164534
+Frontier Airlines Inc.,DSM,6.651884700665189
+Frontier Airlines Inc.,DTW,10.350819672131147
+Frontier Airlines Inc.,ELP,6.923076923076923
+Frontier Airlines Inc.,FAR,9.73469387755102
+Frontier Airlines Inc.,FAT,8.804597701149426
+Frontier Airlines Inc.,FLL,12.12962962962963
+Frontier Airlines Inc.,FSD,6.872340425531915
+Frontier Airlines Inc.,GEG,6.245398773006135
+Frontier Airlines Inc.,GRR,8.995983935742972
+Frontier Airlines Inc.,GSO,8.098039215686274
+Frontier Airlines Inc.,GSP,8.106194690265486
+Frontier Airlines Inc.,HRL,7.115384615384615
+Frontier Airlines Inc.,HSV,7.416666666666667
+Frontier Airlines Inc.,IAD,9.703671328671328
+Frontier Airlines Inc.,IAH,10.819834710743802
+Frontier Airlines Inc.,ICT,6.8
+Frontier Airlines Inc.,IND,8.639417693169094
+Frontier Airlines Inc.,ISP,6.871026894865525
+Frontier Airlines Inc.,JAC,5.875
+Frontier Airlines Inc.,JAN,8.956521739130435
+Frontier Airlines Inc.,JAX,9.38061938061938
+Frontier Airlines Inc.,LAS,9.838555265448216
+Frontier Airlines Inc.,LAX,13.07304347826087
+Frontier Airlines Inc.,LFT,8.9
+Frontier Airlines Inc.,LGA,12.653625954198473
+Frontier Airlines Inc.,LIT,7.563291139240507
+Frontier Airlines Inc.,MCI,6.185410334346504
+Frontier Airlines Inc.,MCO,12.362265573461503
+Frontier Airlines Inc.,MDT,7.009433962264151
+Frontier Airlines Inc.,MEM,8.848754448398576
+Frontier Airlines Inc.,MIA,8.812607449856733
+Frontier Airlines Inc.,MKE,7.970995385629532
+Frontier Airlines Inc.,MSN,6.0733197556008145
+Frontier Airlines Inc.,MSO,6.036697247706422
+Frontier Airlines Inc.,MSP,10.59186189889026
+Frontier Airlines Inc.,MSY,7.9013050570962475
+Frontier Airlines Inc.,MYR,6.401360544217687
+Frontier Airlines Inc.,OKC,6.693089430894309
+Frontier Airlines Inc.,OMA,6.431168831168831
+Frontier Airlines Inc.,ONT,6.865598027127004
+Frontier Airlines Inc.,ORD,15.53175775480059
+Frontier Airlines Inc.,ORF,6.648809523809524
+Frontier Airlines Inc.,PBI,7.123574144486692
+Frontier Airlines Inc.,PDX,7.56989247311828
+Frontier Airlines Inc.,PHL,10.472025576615666
+Frontier Airlines Inc.,PHX,7.525083612040134
+Frontier Airlines Inc.,PIT,8.983673469387755
+Frontier Airlines Inc.,PNS,6.78698224852071
+Frontier Airlines Inc.,PSM,7.636363636363637
+Frontier Airlines Inc.,PSP,7.794117647058823
+Frontier Airlines Inc.,PVD,8.229112833763997
+Frontier Airlines Inc.,PWM,6.801801801801802
+Frontier Airlines Inc.,RDU,9.765948632974316
+Frontier Airlines Inc.,RNO,6.815126050420168
+Frontier Airlines Inc.,RSW,9.503439380911436
+Frontier Airlines Inc.,SAN,7.96156351791531
+Frontier Airlines Inc.,SAT,8.972058823529412
+Frontier Airlines Inc.,SAV,8.88135593220339
+Frontier Airlines Inc.,SBA,7.267857142857143
+Frontier Airlines Inc.,SDF,9.855421686746988
+Frontier Airlines Inc.,SEA,13.350832266325224
+Frontier Airlines Inc.,SFO,12.455252918287938
+Frontier Airlines Inc.,SJC,8.279787234042553
+Frontier Airlines Inc.,SJU,7.526837324525186
+Frontier Airlines Inc.,SLC,8.08142493638677
+Frontier Airlines Inc.,SMF,8.587301587301587
+Frontier Airlines Inc.,SNA,5.906555090655509
+Frontier Airlines Inc.,SRQ,7.521739130434782
+Frontier Airlines Inc.,STL,7.337770382695507
+Frontier Airlines Inc.,SYR,6.068292682926829
+Frontier Airlines Inc.,TPA,9.392062949024975
+Frontier Airlines Inc.,TTN,7.5182926829268295
+Frontier Airlines Inc.,TUL,9.530413625304137
+Frontier Airlines Inc.,TUS,8.766666666666667
+Frontier Airlines Inc.,TYS,6.101063829787234
+"GoJet Airlines, LLC d/b/a United Express",ABQ,5.968871595330739
+"GoJet Airlines, LLC d/b/a United Express",ALB,3.773006134969325
+"GoJet Airlines, LLC d/b/a United Express",ATL,7.042296072507553
+"GoJet Airlines, LLC d/b/a United Express",ATW,4.9953917050691246
+"GoJet Airlines, LLC d/b/a United Express",AUS,6.733333333333333
+"GoJet Airlines, LLC d/b/a United Express",AZO,3.41025641025641
+"GoJet Airlines, LLC d/b/a United Express",BDL,5.074712643678161
+"GoJet Airlines, LLC d/b/a United Express",BGR,4.521739130434782
+"GoJet Airlines, LLC d/b/a United Express",BHM,5.412114014251782
+"GoJet Airlines, LLC d/b/a United Express",BNA,7.684
+"GoJet Airlines, LLC d/b/a United Express",BOS,10.773700305810397
+"GoJet Airlines, LLC d/b/a United Express",BTV,13.444444444444445
+"GoJet Airlines, LLC d/b/a United Express",BUF,6.113636363636363
+"GoJet Airlines, LLC d/b/a United Express",BWI,4.676470588235294
+"GoJet Airlines, LLC d/b/a United Express",BZN,5.294354838709677
+"GoJet Airlines, LLC d/b/a United Express",CAK,3.0
+"GoJet Airlines, LLC d/b/a United Express",CHS,5.970833333333333
+"GoJet Airlines, LLC d/b/a United Express",CID,7.824175824175824
+"GoJet Airlines, LLC d/b/a United Express",CLE,7.401869158878505
+"GoJet Airlines, LLC d/b/a United Express",CLT,9.50625
+"GoJet Airlines, LLC d/b/a United Express",CMH,4.38479809976247
+"GoJet Airlines, LLC d/b/a United Express",CPR,4.268115942028985
+"GoJet Airlines, LLC d/b/a United Express",CVG,5.731770833333333
+"GoJet Airlines, LLC d/b/a United Express",DAY,5.439814814814815
+"GoJet Airlines, LLC d/b/a United Express",DCA,7.959610027855153
+"GoJet Airlines, LLC d/b/a United Express",DEN,9.342769309593955
+"GoJet Airlines, LLC d/b/a United Express",DFW,10.44
+"GoJet Airlines, LLC d/b/a United Express",DRO,3.9781931464174454
+"GoJet Airlines, LLC d/b/a United Express",DSM,5.4241758241758244
+"GoJet Airlines, LLC d/b/a United Express",DTW,8.286997084548105
+"GoJet Airlines, LLC d/b/a United Express",EGE,4.210045662100456
+"GoJet Airlines, LLC d/b/a United Express",ELM,3.821297429620563
+"GoJet Airlines, LLC d/b/a United Express",ELP,11.772727272727273
+"GoJet Airlines, LLC d/b/a United Express",EWR,6.681081081081081
+"GoJet Airlines, LLC d/b/a United Express",FAR,6.084507042253521
+"GoJet Airlines, LLC d/b/a United Express",FCA,3.5921787709497206
+"GoJet Airlines, LLC d/b/a United Express",FLL,7.659090909090909
+"GoJet Airlines, LLC d/b/a United Express",FNT,5.0519480519480515
+"GoJet Airlines, LLC d/b/a United Express",FSD,4.071428571428571
+"GoJet Airlines, LLC d/b/a United Express",GRB,4.0251572327044025
+"GoJet Airlines, LLC d/b/a United Express",GRR,4.143700787401575
+"GoJet Airlines, LLC d/b/a United Express",GSO,7.0661764705882355
+"GoJet Airlines, LLC d/b/a United Express",GSP,3.8421052631578947
+"GoJet Airlines, LLC d/b/a United Express",GUC,3.3773584905660377
+"GoJet Airlines, LLC d/b/a United Express",HDN,3.3771186440677967
+"GoJet Airlines, LLC d/b/a United Express",IAD,5.10431654676259
+"GoJet Airlines, LLC d/b/a United Express",IAH,9.354430379746836
+"GoJet Airlines, LLC d/b/a United Express",ICT,3.5813953488372094
+"GoJet Airlines, LLC d/b/a United Express",IND,5.754491017964072
+"GoJet Airlines, LLC d/b/a United Express",JAC,3.427350427350427
+"GoJet Airlines, LLC d/b/a United Express",JAX,5.688212927756654
+"GoJet Airlines, LLC d/b/a United Express",JFK,12.090909090909092
+"GoJet Airlines, LLC d/b/a United Express",LAS,8.4
+"GoJet Airlines, LLC d/b/a United Express",LEX,4.304444444444444
+"GoJet Airlines, LLC d/b/a United Express",MAF,5.589041095890411
+"GoJet Airlines, LLC d/b/a United Express",MBS,4.349593495934959
+"GoJet Airlines, LLC d/b/a United Express",MCI,4.978695073235686
+"GoJet Airlines, LLC d/b/a United Express",MCO,8.03875968992248
+"GoJet Airlines, LLC d/b/a United Express",MDT,4.491646778042959
+"GoJet Airlines, LLC d/b/a United Express",MDW,5.939481268011527
+"GoJet Airlines, LLC d/b/a United Express",MEM,5.934390771449171
+"GoJet Airlines, LLC d/b/a United Express",MHT,5.276190476190476
+"GoJet Airlines, LLC d/b/a United Express",MIA,6.894736842105263
+"GoJet Airlines, LLC d/b/a United Express",MKE,6.137254901960785
+"GoJet Airlines, LLC d/b/a United Express",MLI,5.773809523809524
+"GoJet Airlines, LLC d/b/a United Express",MSN,3.586402266288952
+"GoJet Airlines, LLC d/b/a United Express",MSO,4.810218978102189
+"GoJet Airlines, LLC d/b/a United Express",MSP,7.522651006711409
+"GoJet Airlines, LLC d/b/a United Express",MSY,4.431578947368421
+"GoJet Airlines, LLC d/b/a United Express",MTJ,4.235732009925559
+"GoJet Airlines, LLC d/b/a United Express",OKC,5.68
+"GoJet Airlines, LLC d/b/a United Express",OMA,3.955246913580247
+"GoJet Airlines, LLC d/b/a United Express",ORD,11.399044724272688
+"GoJet Airlines, LLC d/b/a United Express",ORF,4.2382608695652175
+"GoJet Airlines, LLC d/b/a United Express",PBI,3.851528384279476
+"GoJet Airlines, LLC d/b/a United Express",PHL,7.4213197969543145
+"GoJet Airlines, LLC d/b/a United Express",PIT,6.701492537313433
+"GoJet Airlines, LLC d/b/a United Express",PNS,5.0
+"GoJet Airlines, LLC d/b/a United Express",PSC,4.653386454183267
+"GoJet Airlines, LLC d/b/a United Express",PVD,4.035242290748899
+"GoJet Airlines, LLC d/b/a United Express",PWM,4.454545454545454
+"GoJet Airlines, LLC d/b/a United Express",RAP,6.7625
+"GoJet Airlines, LLC d/b/a United Express",RDM,4.330909090909091
+"GoJet Airlines, LLC d/b/a United Express",RDU,6.912746280659429
+"GoJet Airlines, LLC d/b/a United Express",RIC,7.17680608365019
+"GoJet Airlines, LLC d/b/a United Express",ROA,6.600638977635783
+"GoJet Airlines, LLC d/b/a United Express",ROC,7.788079470198675
+"GoJet Airlines, LLC d/b/a United Express",RSW,4.416666666666667
+"GoJet Airlines, LLC d/b/a United Express",SAT,3.8095238095238093
+"GoJet Airlines, LLC d/b/a United Express",SAV,8.35
+"GoJet Airlines, LLC d/b/a United Express",SBA,5.796875
+"GoJet Airlines, LLC d/b/a United Express",SCE,3.1444444444444444
+"GoJet Airlines, LLC d/b/a United Express",SDF,6.965317919075145
+"GoJet Airlines, LLC d/b/a United Express",SGF,5.125
+"GoJet Airlines, LLC d/b/a United Express",SJC,3.622950819672131
+"GoJet Airlines, LLC d/b/a United Express",SLC,5.746411483253588
+"GoJet Airlines, LLC d/b/a United Express",SRQ,4.0
+"GoJet Airlines, LLC d/b/a United Express",STL,5.470797158642463
+"GoJet Airlines, LLC d/b/a United Express",SYR,4.812977099236641
+"GoJet Airlines, LLC d/b/a United Express",TPA,3.381679389312977
+"GoJet Airlines, LLC d/b/a United Express",TUL,4.6104651162790695
+"GoJet Airlines, LLC d/b/a United Express",TVC,4.657718120805369
+"GoJet Airlines, LLC d/b/a United Express",TYS,3.654970760233918
+"GoJet Airlines, LLC d/b/a United Express",XNA,13.18421052631579
+Hawaiian Airlines Inc.,HNL,7.6349503922473465
+Hawaiian Airlines Inc.,ITO,5.6715054640352305
+Hawaiian Airlines Inc.,JFK,9.195054945054945
+Hawaiian Airlines Inc.,KOA,5.434973045822103
+Hawaiian Airlines Inc.,LAS,9.738197424892704
+Hawaiian Airlines Inc.,LAX,13.878184344603984
+Hawaiian Airlines Inc.,LGB,7.795238095238095
+Hawaiian Airlines Inc.,LIH,6.072536051176407
+Hawaiian Airlines Inc.,OAK,9.100558659217876
+Hawaiian Airlines Inc.,OGG,6.778364455891822
+Hawaiian Airlines Inc.,PDX,7.070422535211268
+Hawaiian Airlines Inc.,PHX,6.569060773480663
+Hawaiian Airlines Inc.,PPG,13.396694214876034
+Hawaiian Airlines Inc.,SAN,6.432203389830509
+Hawaiian Airlines Inc.,SEA,8.066844919786096
+Hawaiian Airlines Inc.,SFO,13.500676589986469
+Hawaiian Airlines Inc.,SJC,5.724376731301939
+Hawaiian Airlines Inc.,SMF,6.59228650137741
+Horizon Air,ABQ,5.31918505942275
+Horizon Air,ALW,3.4657534246575343
+Horizon Air,ANC,5.10752688172043
+Horizon Air,BIL,3.6420890937019967
+Horizon Air,BLI,4.180529300567108
+Horizon Air,BOI,3.6027565838050704
+Horizon Air,BUR,3.0936995153473346
+Horizon Air,BZN,4.7177848775292865
+Horizon Air,EAT,4.249093107617896
+Horizon Air,EUG,3.9100844510680575
+Horizon Air,FAI,3.148936170212766
+Horizon Air,FAT,4.413092550790068
+Horizon Air,FCA,3.600891861761427
+Horizon Air,GEG,3.93681519357195
+Horizon Air,GTF,4.290076335877862
+Horizon Air,HDN,3.7804878048780486
+Horizon Air,HLN,4.304029304029304
+Horizon Air,ICT,3.943661971830986
+Horizon Air,LAS,7.185185185185185
+Horizon Air,LAX,13.73036253776435
+Horizon Air,LWS,4.897310513447433
+Horizon Air,MCI,6.236286919831223
+Horizon Air,MFR,3.802659802659803
+Horizon Air,MMH,3.578181818181818
+Horizon Air,MRY,3.7874015748031495
+Horizon Air,MSO,4.5344827586206895
+Horizon Air,MSP,6.572368421052632
+Horizon Air,OAK,5.679558011049724
+Horizon Air,OKC,4.08
+Horizon Air,ONT,3.6927083333333335
+Horizon Air,PDX,4.812379471228616
+Horizon Air,PHX,6.815789473684211
+Horizon Air,PSC,4.911843876177658
+Horizon Air,PSP,4.653846153846154
+Horizon Air,PUW,4.759625390218522
+Horizon Air,RDM,3.7147736976942785
+Horizon Air,RNO,5.238069414316703
+Horizon Air,SAN,3.698615548455804
+Horizon Air,SBA,3.8424242424242423
+Horizon Air,SBP,4.2102272727272725
+Horizon Air,SCC,4.0
+Horizon Air,SEA,7.592104175279041
+Horizon Air,SFO,7.11875589066918
+Horizon Air,SJC,4.587591240875913
+Horizon Air,SLC,5.27027027027027
+Horizon Air,SMF,5.1230407523510975
+Horizon Air,SNA,6.097156398104265
+Horizon Air,STS,4.673300165837479
+Horizon Air,SUN,3.217910447761194
+Horizon Air,TUS,3.8627450980392157
+Horizon Air,YKM,3.657387580299786
+JetBlue Airways,ABQ,6.925081433224756
+JetBlue Airways,ACK,5.495614035087719
+JetBlue Airways,ALB,4.2946058091286305
+JetBlue Airways,ANC,4.235849056603773
+JetBlue Airways,ATL,11.125243981782694
+JetBlue Airways,AUS,7.57136563876652
+JetBlue Airways,BDL,6.815410199556541
+JetBlue Airways,BNA,7.839047619047619
+JetBlue Airways,BOS,7.197785626413746
+JetBlue Airways,BQN,6.179820992676973
+JetBlue Airways,BTV,4.298277425203989
+JetBlue Airways,BUF,3.5238095238095237
+JetBlue Airways,BUR,5.031307550644567
+JetBlue Airways,BWI,6.433296982915303
+JetBlue Airways,BZN,7.666666666666667
+JetBlue Airways,CHS,6.2726935902186
+JetBlue Airways,CLE,7.075568598679384
+JetBlue Airways,CLT,8.900983146067416
+JetBlue Airways,DAB,4.094444444444444
+JetBlue Airways,DCA,4.858994048761758
+JetBlue Airways,DEN,8.721934369602764
+JetBlue Airways,DFW,10.629032258064516
+JetBlue Airways,DTW,8.190751445086706
+JetBlue Airways,EWR,9.802688050598599
+JetBlue Airways,FLL,7.137013902881322
+JetBlue Airways,HDN,3.8461538461538463
+JetBlue Airways,HOU,5.324965132496513
+JetBlue Airways,HPN,5.320977917981073
+JetBlue Airways,HYA,3.590909090909091
+JetBlue Airways,IAD,5.131181676210307
+JetBlue Airways,JAX,6.353639648941662
+JetBlue Airways,JFK,7.913392026340277
+JetBlue Airways,LAS,8.860892977339017
+JetBlue Airways,LAX,11.495430495430496
+JetBlue Airways,LGA,4.140856950067477
+JetBlue Airways,LGB,4.43770255671588
+JetBlue Airways,MCO,10.379888843145327
+JetBlue Airways,MSP,7.1902017291066285
+JetBlue Airways,MSY,6.387662705149972
+JetBlue Airways,MVY,4.181481481481481
+JetBlue Airways,OAK,5.589500316255535
+JetBlue Airways,ONT,4.576271186440678
+JetBlue Airways,ORD,20.318566250503423
+JetBlue Airways,ORH,4.688648648648648
+JetBlue Airways,PBI,4.184414900618665
+JetBlue Airways,PDX,5.953316953316953
+JetBlue Airways,PHL,8.2491974317817
+JetBlue Airways,PHX,6.629526462395543
+JetBlue Airways,PIT,5.158709677419355
+JetBlue Airways,PSE,5.269230769230769
+JetBlue Airways,PSP,5.241379310344827
+JetBlue Airways,PVD,4.834181078331638
+JetBlue Airways,PWM,3.367736339982654
+JetBlue Airways,RDU,6.4056286326093606
+JetBlue Airways,RIC,5.197083021690352
+JetBlue Airways,RNO,5.37173579109063
+JetBlue Airways,ROC,4.896330275229357
+JetBlue Airways,RSW,6.247022587268994
+JetBlue Airways,SAN,6.053698630136986
+JetBlue Airways,SAV,5.070219966159052
+JetBlue Airways,SEA,9.998536585365853
+JetBlue Airways,SFO,11.942587832047986
+JetBlue Airways,SJC,5.391549295774648
+JetBlue Airways,SJU,5.370610480821178
+JetBlue Airways,SLC,6.809595202398801
+JetBlue Airways,SMF,6.261437908496732
+JetBlue Airways,SRQ,4.171073094867807
+JetBlue Airways,STT,3.327433628318584
+JetBlue Airways,STX,2.643646408839779
+JetBlue Airways,SWF,5.866385372714487
+JetBlue Airways,SYR,3.926984126984127
+JetBlue Airways,TPA,5.8256605284227385
+Mesa Airlines Inc.,ABQ,6.035866261398176
+Mesa Airlines Inc.,AGS,5.0
+Mesa Airlines Inc.,ALB,4.0588235294117645
+Mesa Airlines Inc.,AMA,4.674931129476584
+Mesa Airlines Inc.,ATL,9.163941670349095
+Mesa Airlines Inc.,AUS,6.429817605075337
+Mesa Airlines Inc.,BDL,5.189406099518459
+Mesa Airlines Inc.,BFL,3.9130434782608696
+Mesa Airlines Inc.,BHM,3.949536560247168
+Mesa Airlines Inc.,BIS,5.290322580645161
+Mesa Airlines Inc.,BMI,3.593625498007968
+Mesa Airlines Inc.,BNA,7.872961373390558
+Mesa Airlines Inc.,BOI,4.461741424802111
+Mesa Airlines Inc.,BOS,6.057971014492754
+Mesa Airlines Inc.,BRO,4.842666666666666
+Mesa Airlines Inc.,BTR,4.5455861070911725
+Mesa Airlines Inc.,BTV,4.522590361445783
+Mesa Airlines Inc.,BUF,4.002306805074971
+Mesa Airlines Inc.,BUR,2.0136363636363637
+Mesa Airlines Inc.,BZN,12.797619047619047
+Mesa Airlines Inc.,CAE,4.625
+Mesa Airlines Inc.,CHA,5.673076923076923
+Mesa Airlines Inc.,CHS,6.088374851720047
+Mesa Airlines Inc.,CLE,6.565438373570521
+Mesa Airlines Inc.,CLT,8.535367545076284
+Mesa Airlines Inc.,CMH,6.215070643642072
+Mesa Airlines Inc.,COS,7.777777777777778
+Mesa Airlines Inc.,COU,3.9295302013422817
+Mesa Airlines Inc.,CRP,4.3776520509193775
+Mesa Airlines Inc.,CVG,7.185901434809732
+Mesa Airlines Inc.,DAY,6.164383561643835
+Mesa Airlines Inc.,DCA,5.5584756898817345
+Mesa Airlines Inc.,DFW,11.837322340490987
+Mesa Airlines Inc.,DRO,3.8059701492537314
+Mesa Airlines Inc.,DSM,6.389067524115756
+Mesa Airlines Inc.,DTW,7.939269593762823
+Mesa Airlines Inc.,ECP,4.355140186915888
+Mesa Airlines Inc.,ELP,3.8604749787955894
+Mesa Airlines Inc.,EVV,3.8063241106719365
+Mesa Airlines Inc.,FAT,3.6934156378600824
+Mesa Airlines Inc.,FLG,3.9444444444444446
+Mesa Airlines Inc.,FSD,4.26980198019802
+Mesa Airlines Inc.,FSM,3.6137071651090342
+Mesa Airlines Inc.,GPT,4.02258064516129
+Mesa Airlines Inc.,GRR,6.0
+Mesa Airlines Inc.,GSO,4.0
+Mesa Airlines Inc.,GSP,4.1085714285714285
+Mesa Airlines Inc.,GUC,4.068965517241379
+Mesa Airlines Inc.,HOU,4.899868247694335
+Mesa Airlines Inc.,HRL,4.436754176610979
+Mesa Airlines Inc.,HSV,4.71356783919598
+Mesa Airlines Inc.,IAD,5.886969829470923
+Mesa Airlines Inc.,IAH,9.047964530431278
+Mesa Airlines Inc.,ICT,4.145631067961165
+Mesa Airlines Inc.,ILM,3.6
+Mesa Airlines Inc.,IND,5.374730021598272
+Mesa Airlines Inc.,JAN,4.937203791469194
+Mesa Airlines Inc.,JAX,5.64070351758794
+Mesa Airlines Inc.,LBB,4.399792315680166
+Mesa Airlines Inc.,LFT,5.1474878444084275
+Mesa Airlines Inc.,LGA,6.291637385804638
+Mesa Airlines Inc.,LGB,3.8143851508120648
+Mesa Airlines Inc.,LIT,6.578512396694215
+Mesa Airlines Inc.,MAF,4.668632075471698
+Mesa Airlines Inc.,MCI,5.374683544303798
+Mesa Airlines Inc.,MDT,3.9323308270676693
+Mesa Airlines Inc.,MEM,6.267901234567901
+Mesa Airlines Inc.,MFE,3.7627329192546584
+Mesa Airlines Inc.,MIA,5.970588235294118
+Mesa Airlines Inc.,MKE,8.023017902813299
+Mesa Airlines Inc.,MLI,4.795302013422819
+Mesa Airlines Inc.,MOB,4.634285714285714
+Mesa Airlines Inc.,MRY,2.3947990543735225
+Mesa Airlines Inc.,MSP,6.354819633353046
+Mesa Airlines Inc.,MSY,4.2408376963350785
+Mesa Airlines Inc.,MTJ,5.310897435897436
+Mesa Airlines Inc.,OAK,5.355555555555555
+Mesa Airlines Inc.,OKC,6.299729625337968
+Mesa Airlines Inc.,OMA,4.396739130434782
+Mesa Airlines Inc.,ONT,4.626112759643917
+Mesa Airlines Inc.,ORF,4.833852544132918
+Mesa Airlines Inc.,PBI,5.0
+Mesa Airlines Inc.,PHL,7.210600706713781
+Mesa Airlines Inc.,PHX,10.346969521381387
+Mesa Airlines Inc.,PIA,4.484641638225256
+Mesa Airlines Inc.,PIT,5.334398976982097
+Mesa Airlines Inc.,PNS,4.495626822157434
+Mesa Airlines Inc.,PSP,5.882666666666666
+Mesa Airlines Inc.,PVD,4.061564059900166
+Mesa Airlines Inc.,PWM,3.8181818181818183
+Mesa Airlines Inc.,RAP,6.761744966442953
+Mesa Airlines Inc.,RDU,6.325456498388829
+Mesa Airlines Inc.,RIC,8.194513715710723
+Mesa Airlines Inc.,RNO,4.384347826086956
+Mesa Airlines Inc.,ROC,6.9789029535864975
+Mesa Airlines Inc.,RSW,5.25
+Mesa Airlines Inc.,SAT,3.9338677354709417
+Mesa Airlines Inc.,SAV,4.247443762781186
+Mesa Airlines Inc.,SBA,4.209424083769633
+Mesa Airlines Inc.,SBP,3.815412186379928
+Mesa Airlines Inc.,SDF,7.983157894736842
+Mesa Airlines Inc.,SHV,5.723404255319149
+Mesa Airlines Inc.,SJC,3.0
+Mesa Airlines Inc.,SLC,7.372007366482505
+Mesa Airlines Inc.,SMF,4.875
+Mesa Airlines Inc.,STL,6.1002227171492205
+Mesa Airlines Inc.,STS,3.61744966442953
+Mesa Airlines Inc.,SYR,5.196517412935323
+Mesa Airlines Inc.,TPA,7.666666666666667
+Mesa Airlines Inc.,TUL,4.574819401444788
+Mesa Airlines Inc.,TUS,4.693333333333333
+Mesa Airlines Inc.,TYS,4.601659751037344
+Mesa Airlines Inc.,VPS,7.785714285714286
+Mesa Airlines Inc.,XNA,10.495535714285714
+Peninsula Airways Inc.,ANC,3.395759717314488
+Peninsula Airways Inc.,DUT,2.706306306306306
+Republic Airlines,ABQ,6.997619047619048
+Republic Airlines,ACK,8.471428571428572
+Republic Airlines,ALB,5.295918367346939
+Republic Airlines,ATL,9.667592914206322
+Republic Airlines,AUS,7.196902654867257
+Republic Airlines,BDL,6.030898876404494
+Republic Airlines,BGR,5.194991055456172
+Republic Airlines,BHM,6.054347826086956
+Republic Airlines,BNA,8.733860891295294
+Republic Airlines,BOI,5.344262295081967
+Republic Airlines,BOS,10.712450592885375
+Republic Airlines,BRO,5.361963190184049
+Republic Airlines,BTR,5.3
+Republic Airlines,BTV,4.852657004830918
+Republic Airlines,BUF,5.559266802443992
+Republic Airlines,BWI,5.606334841628959
+Republic Airlines,BZN,7.0
+Republic Airlines,CAE,5.705882352941177
+Republic Airlines,CHA,3.6666666666666665
+Republic Airlines,CHS,7.360197368421052
+Republic Airlines,CID,6.369230769230769
+Republic Airlines,CLE,7.085336538461538
+Republic Airlines,CLT,11.318988865482996
+Republic Airlines,CMH,6.458540873132142
+Republic Airlines,COS,7.857142857142857
+Republic Airlines,CRP,4.827586206896552
+Republic Airlines,CVG,7.149825783972125
+Republic Airlines,DAY,6.116666666666666
+Republic Airlines,DCA,8.413398990820111
+Republic Airlines,DEN,10.93016241299304
+Republic Airlines,DFW,11.224
+Republic Airlines,DRO,8.022388059701493
+Republic Airlines,DSM,7.1701902748414374
+Republic Airlines,DTW,9.022552255225522
+Republic Airlines,ELP,5.2968236582694415
+Republic Airlines,EWR,9.591708168390584
+Republic Airlines,EYW,5.4644268774703555
+Republic Airlines,FAR,5.681818181818182
+Republic Airlines,FCA,4.25
+Republic Airlines,FSD,10.131578947368421
+Republic Airlines,GJT,4.413265306122449
+Republic Airlines,GRR,6.8014018691588785
+Republic Airlines,GSO,7.6419753086419755
+Republic Airlines,GSP,5.184873949579832
+Republic Airlines,HHH,7.23404255319149
+Republic Airlines,HOU,8.153846153846153
+Republic Airlines,HRL,5.864238410596027
+Republic Airlines,HSV,5.864485981308412
+Republic Airlines,IAD,7.4338624338624335
+Republic Airlines,IAH,8.572520852641334
+Republic Airlines,ICT,4.796078431372549
+Republic Airlines,ILM,5.178571428571429
+Republic Airlines,IND,7.22227414330218
+Republic Airlines,JAX,6.664393570384803
+Republic Airlines,JFK,13.549346879535559
+Republic Airlines,LAN,6.868421052631579
+Republic Airlines,LEX,5.836363636363636
+Republic Airlines,LFT,5.7910112359550565
+Republic Airlines,LGA,9.470252816707887
+Republic Airlines,LIT,8.085271317829458
+Republic Airlines,LNK,5.362068965517241
+Republic Airlines,MAF,5.449021627188466
+Republic Airlines,MCI,5.457926252757643
+Republic Airlines,MCO,13.375
+Republic Airlines,MDT,6.203703703703703
+Republic Airlines,MEM,5.854915254237288
+Republic Airlines,MFE,5.7272727272727275
+Republic Airlines,MHT,6.038031319910514
+Republic Airlines,MIA,7.147750167897918
+Republic Airlines,MKE,7.292929292929293
+Republic Airlines,MLI,11.763157894736842
+Republic Airlines,MSN,5.328947368421052
+Republic Airlines,MSP,6.324385419610059
+Republic Airlines,MSY,6.47
+Republic Airlines,MVY,6.559322033898305
+Republic Airlines,MYR,5.8
+Republic Airlines,OKC,6.798387096774194
+Republic Airlines,OMA,5.1609454136184585
+Republic Airlines,ORD,13.223664409330324
+Republic Airlines,ORF,5.5429208472686735
+Republic Airlines,PBI,4.9640718562874255
+Republic Airlines,PHL,8.860917941585535
+Republic Airlines,PIT,6.167056284840856
+Republic Airlines,PNS,5.765498652291105
+Republic Airlines,PVD,5.325369738339021
+Republic Airlines,PWM,4.6125
+Republic Airlines,RAP,13.304347826086957
+Republic Airlines,RDU,7.285324062577601
+Republic Airlines,RIC,7.6390532544378695
+Republic Airlines,ROC,6.39334637964775
+Republic Airlines,RSW,7.123595505617978
+Republic Airlines,SAT,4.518939393939394
+Republic Airlines,SAV,6.944444444444445
+Republic Airlines,SDF,9.064985163204748
+Republic Airlines,SLC,7.223880597014926
+Republic Airlines,SRQ,4.358455882352941
+Republic Airlines,STL,6.283163265306122
+Republic Airlines,SYR,5.808634772462077
+Republic Airlines,TLH,6.434065934065934
+Republic Airlines,TPA,6.162790697674419
+Republic Airlines,TUL,4.839650145772595
+Republic Airlines,TVC,5.687898089171974
+Republic Airlines,TYS,4.95
+Republic Airlines,VPS,10.675675675675675
+Republic Airlines,XNA,8.621226874391432
+SkyWest Airlines Inc.,ABE,5.246794871794871
+SkyWest Airlines Inc.,ABQ,6.5881085738905645
+SkyWest Airlines Inc.,ABR,4.744
+SkyWest Airlines Inc.,ABY,3.608
+SkyWest Airlines Inc.,ACV,6.0811001410437235
+SkyWest Airlines Inc.,AEX,3.920502092050209
+SkyWest Airlines Inc.,AGS,5.3726235741444865
+SkyWest Airlines Inc.,ALB,4.669051878354204
+SkyWest Airlines Inc.,AMA,5.235294117647059
+SkyWest Airlines Inc.,APN,5.098976109215017
+SkyWest Airlines Inc.,ASE,3.72537728355838
+SkyWest Airlines Inc.,ATL,9.321812276172233
+SkyWest Airlines Inc.,ATW,4.840758293838863
+SkyWest Airlines Inc.,AUS,5.975237309120924
+SkyWest Airlines Inc.,AVL,4.714546561168594
+SkyWest Airlines Inc.,AVP,4.181547619047619
+SkyWest Airlines Inc.,AZO,3.7839506172839505
+SkyWest Airlines Inc.,BDL,6.0
+SkyWest Airlines Inc.,BFF,4.001757469244288
+SkyWest Airlines Inc.,BFL,4.991973244147157
+SkyWest Airlines Inc.,BGM,3.8602620087336246
+SkyWest Airlines Inc.,BGR,4.7272727272727275
+SkyWest Airlines Inc.,BHM,5.329368709972552
+SkyWest Airlines Inc.,BIL,3.94337899543379
+SkyWest Airlines Inc.,BIS,4.681936041486603
+SkyWest Airlines Inc.,BJI,4.584487534626039
+SkyWest Airlines Inc.,BLI,4.458677685950414
+SkyWest Airlines Inc.,BMI,4.07563025210084
+SkyWest Airlines Inc.,BNA,7.358421393142118
+SkyWest Airlines Inc.,BOI,4.23692264885921
+SkyWest Airlines Inc.,BOS,10.141968911917099
+SkyWest Airlines Inc.,BQK,3.484375
+SkyWest Airlines Inc.,BRD,4.511475409836065
+SkyWest Airlines Inc.,BRO,4.932011331444759
+SkyWest Airlines Inc.,BTM,3.5089285714285716
+SkyWest Airlines Inc.,BTR,4.434697855750487
+SkyWest Airlines Inc.,BTV,5.0381861575179
+SkyWest Airlines Inc.,BUF,5.061224489795919
+SkyWest Airlines Inc.,BUR,3.972811671087533
+SkyWest Airlines Inc.,BWI,7.315068493150685
+SkyWest Airlines Inc.,BZN,5.365179132620993
+SkyWest Airlines Inc.,CAE,5.0
+SkyWest Airlines Inc.,CAK,5.921153846153846
+SkyWest Airlines Inc.,CDC,3.5588235294117645
+SkyWest Airlines Inc.,CGI,4.907849829351536
+SkyWest Airlines Inc.,CHA,5.221625251846877
+SkyWest Airlines Inc.,CHO,5.342911877394636
+SkyWest Airlines Inc.,CHS,5.96875
+SkyWest Airlines Inc.,CID,6.900455062571104
+SkyWest Airlines Inc.,CIU,4.5167173252279635
+SkyWest Airlines Inc.,CKB,3.815868263473054
+SkyWest Airlines Inc.,CLE,7.530664395229983
+SkyWest Airlines Inc.,CLL,4.74
+SkyWest Airlines Inc.,CLT,10.335653104925054
+SkyWest Airlines Inc.,CMH,5.526178010471204
+SkyWest Airlines Inc.,CMX,4.588839941262849
+SkyWest Airlines Inc.,CNY,4.891826923076923
+SkyWest Airlines Inc.,COD,4.299130434782609
+SkyWest Airlines Inc.,COS,7.150039904229848
+SkyWest Airlines Inc.,COU,4.328185328185328
+SkyWest Airlines Inc.,CPR,4.1265625
+SkyWest Airlines Inc.,CRP,5.6421052631578945
+SkyWest Airlines Inc.,CRW,3.3841463414634148
+SkyWest Airlines Inc.,CVG,6.2846153846153845
+SkyWest Airlines Inc.,CWA,4.408256880733945
+SkyWest Airlines Inc.,CYS,3.7017543859649122
+SkyWest Airlines Inc.,DAL,8.580342167058035
+SkyWest Airlines Inc.,DAY,5.766548042704627
+SkyWest Airlines Inc.,DCA,6.1682378535170415
+SkyWest Airlines Inc.,DEN,9.84420744014107
+SkyWest Airlines Inc.,DFW,11.939934473971606
+SkyWest Airlines Inc.,DHN,3.7142857142857144
+SkyWest Airlines Inc.,DLH,5.674924471299094
+SkyWest Airlines Inc.,DRO,5.245183887915937
+SkyWest Airlines Inc.,DSM,5.668141592920354
+SkyWest Airlines Inc.,DTW,8.849581324536919
+SkyWest Airlines Inc.,DVL,5.471476510067114
+SkyWest Airlines Inc.,EAR,4.237373737373737
+SkyWest Airlines Inc.,EAU,3.9494949494949494
+SkyWest Airlines Inc.,ECP,8.5
+SkyWest Airlines Inc.,EGE,5.535269709543568
+SkyWest Airlines Inc.,EKO,4.390243902439025
+SkyWest Airlines Inc.,ELP,4.165435745937962
+SkyWest Airlines Inc.,ERI,3.478515625
+SkyWest Airlines Inc.,ESC,4.493333333333333
+SkyWest Airlines Inc.,EUG,4.400552486187845
+SkyWest Airlines Inc.,EVV,4.781725888324873
+SkyWest Airlines Inc.,EWN,2.84
+SkyWest Airlines Inc.,EWR,7.2292817679558015
+SkyWest Airlines Inc.,FAR,5.636713735558408
+SkyWest Airlines Inc.,FAT,5.707744839360546
+SkyWest Airlines Inc.,FAY,4.842482100238663
+SkyWest Airlines Inc.,FCA,4.108559498956159
+SkyWest Airlines Inc.,FLG,4.04066985645933
+SkyWest Airlines Inc.,FLL,5.366666666666666
+SkyWest Airlines Inc.,FNT,4.803603603603603
+SkyWest Airlines Inc.,FSD,5.978515625
+SkyWest Airlines Inc.,FSM,4.065217391304348
+SkyWest Airlines Inc.,FWA,6.434852374839537
+SkyWest Airlines Inc.,GCC,5.506682867557716
+SkyWest Airlines Inc.,GEG,4.062763713080169
+SkyWest Airlines Inc.,GFK,4.245880861850444
+SkyWest Airlines Inc.,GJT,3.652682255845942
+SkyWest Airlines Inc.,GNV,4.561497326203209
+SkyWest Airlines Inc.,GRB,4.337912087912088
+SkyWest Airlines Inc.,GRK,3.9767441860465116
+SkyWest Airlines Inc.,GRR,4.5578720345075485
+SkyWest Airlines Inc.,GSO,6.334470989761092
+SkyWest Airlines Inc.,GSP,4.276923076923077
+SkyWest Airlines Inc.,GTF,4.093275488069414
+SkyWest Airlines Inc.,GTR,3.963636363636364
+SkyWest Airlines Inc.,HDN,4.935018050541516
+SkyWest Airlines Inc.,HIB,3.8371335504885993
+SkyWest Airlines Inc.,HLN,3.7508591065292096
+SkyWest Airlines Inc.,HOU,5.815789473684211
+SkyWest Airlines Inc.,HPN,5.944285714285714
+SkyWest Airlines Inc.,HRL,3.2685185185185186
+SkyWest Airlines Inc.,HSV,5.424489795918367
+SkyWest Airlines Inc.,HYS,4.405328258801142
+SkyWest Airlines Inc.,IAD,7.540610786224821
+SkyWest Airlines Inc.,IAH,8.809375572239517
+SkyWest Airlines Inc.,ICT,4.757004310344827
+SkyWest Airlines Inc.,IDA,4.182282793867121
+SkyWest Airlines Inc.,ILM,4.239024390243903
+SkyWest Airlines Inc.,IMT,4.539634146341464
+SkyWest Airlines Inc.,IND,6.455375253549696
+SkyWest Airlines Inc.,INL,4.244299674267101
+SkyWest Airlines Inc.,ISN,6.146123260437376
+SkyWest Airlines Inc.,ITH,3.9241803278688523
+SkyWest Airlines Inc.,JAC,4.101841820151679
+SkyWest Airlines Inc.,JAN,4.730769230769231
+SkyWest Airlines Inc.,JAX,5.6568627450980395
+SkyWest Airlines Inc.,JFK,11.70045045045045
+SkyWest Airlines Inc.,JLN,4.532110091743119
+SkyWest Airlines Inc.,JMS,4.660980810234541
+SkyWest Airlines Inc.,KTN,3.3333333333333335
+SkyWest Airlines Inc.,LAN,4.608969866853539
+SkyWest Airlines Inc.,LAR,4.658536585365853
+SkyWest Airlines Inc.,LAS,7.8851113716295425
+SkyWest Airlines Inc.,LAW,3.7206703910614527
+SkyWest Airlines Inc.,LAX,13.68378700958688
+SkyWest Airlines Inc.,LBB,4.530201342281879
+SkyWest Airlines Inc.,LBF,4.895017793594306
+SkyWest Airlines Inc.,LBL,4.907942238267148
+SkyWest Airlines Inc.,LCH,5.625
+SkyWest Airlines Inc.,LEX,4.7877551020408164
+SkyWest Airlines Inc.,LFT,5.3584905660377355
+SkyWest Airlines Inc.,LGA,6.9953095684803
+SkyWest Airlines Inc.,LGB,4.2387096774193544
+SkyWest Airlines Inc.,LIT,5.941919191919192
+SkyWest Airlines Inc.,LNK,4.158415841584159
+SkyWest Airlines Inc.,LRD,5.008064516129032
+SkyWest Airlines Inc.,LSE,3.688976377952756
+SkyWest Airlines Inc.,LWB,4.119642857142857
+SkyWest Airlines Inc.,LWS,4.083989501312336
+SkyWest Airlines Inc.,MAF,4.573770491803279
+SkyWest Airlines Inc.,MBS,4.527989821882952
+SkyWest Airlines Inc.,MCI,6.15320197044335
+SkyWest Airlines Inc.,MCO,9.555555555555555
+SkyWest Airlines Inc.,MDT,5.018595041322314
+SkyWest Airlines Inc.,MDW,6.044444444444444
+SkyWest Airlines Inc.,MEI,4.823008849557522
+SkyWest Airlines Inc.,MEM,6.53921568627451
+SkyWest Airlines Inc.,MFR,5.806247806247806
+SkyWest Airlines Inc.,MGM,3.822429906542056
+SkyWest Airlines Inc.,MHK,5.514563106796117
+SkyWest Airlines Inc.,MHT,6.258064516129032
+SkyWest Airlines Inc.,MKE,5.829763663220088
+SkyWest Airlines Inc.,MKG,4.6729651162790695
+SkyWest Airlines Inc.,MLI,5.657942238267148
+SkyWest Airlines Inc.,MLU,4.203076923076923
+SkyWest Airlines Inc.,MMH,3.9925925925925925
+SkyWest Airlines Inc.,MOB,4.068376068376068
+SkyWest Airlines Inc.,MOT,5.4402810304449645
+SkyWest Airlines Inc.,MQT,4.76039119804401
+SkyWest Airlines Inc.,MRY,3.706024096385542
+SkyWest Airlines Inc.,MSN,4.419488597097443
+SkyWest Airlines Inc.,MSO,6.939835916134913
+SkyWest Airlines Inc.,MSP,6.975167227735758
+SkyWest Airlines Inc.,MSY,5.614814814814815
+SkyWest Airlines Inc.,MTJ,5.3463414634146345
+SkyWest Airlines Inc.,MYR,3.75
+SkyWest Airlines Inc.,OAJ,3.7818181818181817
+SkyWest Airlines Inc.,OAK,4.785915492957747
+SkyWest Airlines Inc.,OKC,5.5870222711025574
+SkyWest Airlines Inc.,OMA,4.878139534883721
+SkyWest Airlines Inc.,ONT,4.1806543385490755
+SkyWest Airlines Inc.,ORD,14.365013718528083
+SkyWest Airlines Inc.,ORF,4.688405797101449
+SkyWest Airlines Inc.,OTH,3.952112676056338
+SkyWest Airlines Inc.,PAH,4.3718887262079065
+SkyWest Airlines Inc.,PBG,5.18348623853211
+SkyWest Airlines Inc.,PBI,4.928571428571429
+SkyWest Airlines Inc.,PDX,6.259530141843972
+SkyWest Airlines Inc.,PHL,6.797872340425532
+SkyWest Airlines Inc.,PHX,8.32054640718563
+SkyWest Airlines Inc.,PIA,5.215613382899628
+SkyWest Airlines Inc.,PIB,4.558528428093646
+SkyWest Airlines Inc.,PIH,3.298555377207063
+SkyWest Airlines Inc.,PIT,6.780458383594692
+SkyWest Airlines Inc.,PLN,5.653301886792453
+SkyWest Airlines Inc.,PNS,5.253623188405797
+SkyWest Airlines Inc.,PRC,3.652542372881356
+SkyWest Airlines Inc.,PSC,5.120525059665871
+SkyWest Airlines Inc.,PSP,5.764236902050114
+SkyWest Airlines Inc.,PUB,4.531319910514541
+SkyWest Airlines Inc.,PVD,4.632727272727273
+SkyWest Airlines Inc.,PWM,5.6613924050632916
+SkyWest Airlines Inc.,RAP,6.145558739255014
+SkyWest Airlines Inc.,RDD,4.492957746478873
+SkyWest Airlines Inc.,RDM,4.76018549188473
+SkyWest Airlines Inc.,RDU,6.679924242424242
+SkyWest Airlines Inc.,RHI,4.039660056657223
+SkyWest Airlines Inc.,RIC,6.733905579399142
+SkyWest Airlines Inc.,RKS,3.1997019374068554
+SkyWest Airlines Inc.,RNO,5.141643059490085
+SkyWest Airlines Inc.,ROA,5.718120805369128
+SkyWest Airlines Inc.,ROC,6.151385927505331
+SkyWest Airlines Inc.,ROW,5.07645259938838
+SkyWest Airlines Inc.,RST,4.0212765957446805
+SkyWest Airlines Inc.,RSW,4.142857142857143
+SkyWest Airlines Inc.,SAF,4.950323974082074
+SkyWest Airlines Inc.,SAN,3.8663352665009665
+SkyWest Airlines Inc.,SAT,4.806869089099054
+SkyWest Airlines Inc.,SAV,6.666666666666667
+SkyWest Airlines Inc.,SBA,4.76783340717767
+SkyWest Airlines Inc.,SBN,5.199696279422931
+SkyWest Airlines Inc.,SBP,4.6880069524913095
+SkyWest Airlines Inc.,SCE,3.7523584905660377
+SkyWest Airlines Inc.,SDF,7.895589558955896
+SkyWest Airlines Inc.,SEA,9.418766963939511
+SkyWest Airlines Inc.,SFO,7.980594513539737
+SkyWest Airlines Inc.,SGF,6.668552036199095
+SkyWest Airlines Inc.,SGU,3.6089773253123556
+SkyWest Airlines Inc.,SHD,4.3286604361370715
+SkyWest Airlines Inc.,SHV,6.173210161662817
+SkyWest Airlines Inc.,SIT,4.0
+SkyWest Airlines Inc.,SJC,5.160486196950968
+SkyWest Airlines Inc.,SLC,6.877820470896011
+SkyWest Airlines Inc.,SLN,5.608047690014903
+SkyWest Airlines Inc.,SMF,5.374650512581547
+SkyWest Airlines Inc.,SNA,6.331896551724138
+SkyWest Airlines Inc.,SPI,4.341164453524004
+SkyWest Airlines Inc.,SRQ,4.326086956521739
+SkyWest Airlines Inc.,STL,5.874217118997913
+SkyWest Airlines Inc.,STS,4.492725509214355
+SkyWest Airlines Inc.,SUN,3.0138504155124655
+SkyWest Airlines Inc.,SWF,5.126801152737752
+SkyWest Airlines Inc.,SYR,5.412955465587045
+SkyWest Airlines Inc.,TOL,3.8545454545454545
+SkyWest Airlines Inc.,TPA,4.485294117647059
+SkyWest Airlines Inc.,TRI,4.300380228136882
+SkyWest Airlines Inc.,TUL,5.147720715522216
+SkyWest Airlines Inc.,TUS,4.988205018228609
+SkyWest Airlines Inc.,TVC,5.239107332624867
+SkyWest Airlines Inc.,TWF,3.272727272727273
+SkyWest Airlines Inc.,TYS,5.32914798206278
+SkyWest Airlines Inc.,UIN,4.158016147635525
+SkyWest Airlines Inc.,VEL,3.968152866242038
+SkyWest Airlines Inc.,VLD,3.7786259541984735
+SkyWest Airlines Inc.,WYS,3.9038461538461537
+SkyWest Airlines Inc.,XNA,9.0615234375
+SkyWest Airlines Inc.,YUM,3.703096539162113
+Southwest Airlines Co.,ABQ,4.4673019758699075
+Southwest Airlines Co.,ALB,3.253040224508887
+Southwest Airlines Co.,AMA,3.8755137991779214
+Southwest Airlines Co.,ATL,7.96736816642477
+Southwest Airlines Co.,AUS,5.664440879330529
+Southwest Airlines Co.,BDL,4.367611725132148
+Southwest Airlines Co.,BHM,2.4566611256233672
+Southwest Airlines Co.,BNA,5.048203728967713
+Southwest Airlines Co.,BOI,2.9342592592592593
+Southwest Airlines Co.,BOS,8.054206418039897
+Southwest Airlines Co.,BUF,3.291909924937448
+Southwest Airlines Co.,BUR,2.3697152717860224
+Southwest Airlines Co.,BWI,4.639360383086066
+Southwest Airlines Co.,CHS,5.680741503604532
+Southwest Airlines Co.,CLE,4.787270642201835
+Southwest Airlines Co.,CLT,8.140211640211641
+Southwest Airlines Co.,CMH,4.394721696949766
+Southwest Airlines Co.,CRP,4.082379862700229
+Southwest Airlines Co.,CVG,4.773513139695712
+Southwest Airlines Co.,DAL,4.826068094541832
+Southwest Airlines Co.,DCA,5.914710432501513
+Southwest Airlines Co.,DEN,6.223170177521732
+Southwest Airlines Co.,DSM,3.5823686553873553
+Southwest Airlines Co.,DTW,7.115794143744455
+Southwest Airlines Co.,ECP,3.414899401848831
+Southwest Airlines Co.,ELP,3.1715595016468567
+Southwest Airlines Co.,EWR,9.011785598966743
+Southwest Airlines Co.,FLL,5.085138944824808
+Southwest Airlines Co.,FNT,3.4692144373673037
+Southwest Airlines Co.,GEG,3.3934010152284264
+Southwest Airlines Co.,GRR,4.966369930761622
+Southwest Airlines Co.,GSP,2.662451361867704
+Southwest Airlines Co.,HOU,5.5345565038998235
+Southwest Airlines Co.,HRL,2.217896865520728
+Southwest Airlines Co.,IAD,5.177712114816378
+Southwest Airlines Co.,ICT,3.3973087818696883
+Southwest Airlines Co.,IND,4.455596208215533
+Southwest Airlines Co.,ISP,3.7674472524924645
+Southwest Airlines Co.,JAX,4.467745041401887
+Southwest Airlines Co.,LAS,5.290815976274491
+Southwest Airlines Co.,LAX,9.04615164793294
+Southwest Airlines Co.,LBB,3.198147402335884
+Southwest Airlines Co.,LGA,8.069810278135936
+Southwest Airlines Co.,LGB,3.9356643356643355
+Southwest Airlines Co.,LIT,3.3623989791578053
+Southwest Airlines Co.,MAF,2.8230411686586985
+Southwest Airlines Co.,MCI,4.59111460585807
+Southwest Airlines Co.,MCO,7.237929056315135
+Southwest Airlines Co.,MDW,5.729074697047384
+Southwest Airlines Co.,MEM,4.039634146341464
+Southwest Airlines Co.,MHT,3.4803610636740667
+Southwest Airlines Co.,MKE,4.1180933531255155
+Southwest Airlines Co.,MSP,4.039696366351419
+Southwest Airlines Co.,MSY,4.7766567754698315
+Southwest Airlines Co.,OAK,5.689267094445558
+Southwest Airlines Co.,OKC,3.807025761124122
+Southwest Airlines Co.,OMA,3.2296870513924776
+Southwest Airlines Co.,ONT,3.787575320376814
+Southwest Airlines Co.,ORF,3.6387073347857664
+Southwest Airlines Co.,PBI,4.2917521542880595
+Southwest Airlines Co.,PDX,3.5297148746135347
+Southwest Airlines Co.,PHL,6.568819231675701
+Southwest Airlines Co.,PHX,5.5954192268929415
+Southwest Airlines Co.,PIT,4.993055555555555
+Southwest Airlines Co.,PNS,3.3580922595777953
+Southwest Airlines Co.,PVD,4.313976229878141
+Southwest Airlines Co.,PWM,2.8986212489862124
+Southwest Airlines Co.,RDU,4.797238095238095
+Southwest Airlines Co.,RIC,4.032258064516129
+Southwest Airlines Co.,RNO,3.9177875549968575
+Southwest Airlines Co.,ROC,5.027226318774816
+Southwest Airlines Co.,RSW,4.073998245100907
+Southwest Airlines Co.,SAN,3.5118544724891754
+Southwest Airlines Co.,SAT,3.5934811583666546
+Southwest Airlines Co.,SDF,4.257520510483136
+Southwest Airlines Co.,SEA,8.365810308612053
+Southwest Airlines Co.,SFO,8.303647210775571
+Southwest Airlines Co.,SJC,4.051897963326342
+Southwest Airlines Co.,SJU,6.208636584182436
+Southwest Airlines Co.,SLC,3.9248071979434447
+Southwest Airlines Co.,SMF,3.4794205399187605
+Southwest Airlines Co.,SNA,3.9254032258064515
+Southwest Airlines Co.,STL,4.085967945905489
+Southwest Airlines Co.,TPA,4.4933945602260685
+Southwest Airlines Co.,TUL,4.380163511187607
+Southwest Airlines Co.,TUS,3.278588807785888
+Spirit Air Lines,ACY,5.0344933785032335
+Spirit Air Lines,ATL,13.513822336896425
+Spirit Air Lines,AVL,7.3546099290780145
+Spirit Air Lines,BDL,5.403069926094372
+Spirit Air Lines,BOS,11.228046156855076
+Spirit Air Lines,BQN,10.394160583941606
+Spirit Air Lines,BWI,8.278084037731226
+Spirit Air Lines,CAK,6.2066276803118905
+Spirit Air Lines,CLE,9.393991123250256
+Spirit Air Lines,CMH,6.449317038102085
+Spirit Air Lines,CRW,4.571428571428571
+Spirit Air Lines,DEN,9.469223907225691
+Spirit Air Lines,DFW,10.5671759155246
+Spirit Air Lines,DTW,11.095804331013147
+Spirit Air Lines,EWR,10.074717636837532
+Spirit Air Lines,FLL,8.646807784226699
+Spirit Air Lines,GSO,6.376
+Spirit Air Lines,IAG,6.773255813953488
+Spirit Air Lines,IAH,10.87085645717714
+Spirit Air Lines,JAX,7.25
+Spirit Air Lines,LAS,8.49217598764999
+Spirit Air Lines,LAX,11.77703108124325
+Spirit Air Lines,LBE,6.497191011235955
+Spirit Air Lines,LGA,13.65885684860968
+Spirit Air Lines,MCI,5.9264909847434115
+Spirit Air Lines,MCO,13.500737789582411
+Spirit Air Lines,MSP,7.819691863264324
+Spirit Air Lines,MSY,8.257904411764706
+Spirit Air Lines,MYR,5.539264828738513
+Spirit Air Lines,OAK,6.777856635911994
+Spirit Air Lines,ORD,15.621319578766387
+Spirit Air Lines,PBG,5.193415637860082
+Spirit Air Lines,PBI,6.026315789473684
+Spirit Air Lines,PDX,6.373349339735895
+Spirit Air Lines,PHL,9.96224
+Spirit Air Lines,PHX,7.616766467065868
+Spirit Air Lines,PIT,7.412698412698413
+Spirit Air Lines,RIC,6.318965517241379
+Spirit Air Lines,RSW,7.1949526813880125
+Spirit Air Lines,SAN,6.391363636363637
+Spirit Air Lines,SEA,11.623103279490945
+Spirit Air Lines,SJU,5.916010498687664
+Spirit Air Lines,STT,5.229357798165138
+Spirit Air Lines,TPA,6.852205220522052
+Trans States Airlines,ABE,5.631578947368421
+Trans States Airlines,ABQ,5.433734939759036
+Trans States Airlines,ALB,4.019292604501608
+Trans States Airlines,AMA,5.036418816388467
+Trans States Airlines,ATL,8.6
+Trans States Airlines,ATW,5.730769230769231
+Trans States Airlines,BDL,6.5523255813953485
+Trans States Airlines,BGR,4.483739837398374
+Trans States Airlines,BHM,6.348837209302325
+Trans States Airlines,BIL,3.61875
+Trans States Airlines,BIS,4.555375909458367
+Trans States Airlines,BNA,7.042105263157895
+Trans States Airlines,BOS,10.714285714285714
+Trans States Airlines,BTV,4.087719298245614
+Trans States Airlines,BUF,2.9047619047619047
+Trans States Airlines,CAE,4.796875
+Trans States Airlines,CAK,5.385767790262173
+Trans States Airlines,CHO,3.8947368421052633
+Trans States Airlines,CHS,6.621621621621622
+Trans States Airlines,CID,7.389221556886228
+Trans States Airlines,CLE,6.636579572446556
+Trans States Airlines,CMH,6.4875
+Trans States Airlines,CMI,4.007843137254902
+Trans States Airlines,COD,3.597609561752988
+Trans States Airlines,COS,6.856443719412725
+Trans States Airlines,COU,4.783783783783784
+Trans States Airlines,CPR,3.74375
+Trans States Airlines,CRW,4.913978494623656
+Trans States Airlines,CVG,9.285714285714286
+Trans States Airlines,DAY,5.899850523168909
+Trans States Airlines,DCA,7.305036555645817
+Trans States Airlines,DEN,9.57914921532018
+Trans States Airlines,DIK,5.407051282051282
+Trans States Airlines,DRO,4.554726368159204
+Trans States Airlines,DSM,5.274959083469722
+Trans States Airlines,DTW,7.6
+Trans States Airlines,ELP,3.9553846153846153
+Trans States Airlines,FAR,5.702619414483821
+Trans States Airlines,FCA,3.4024896265560165
+Trans States Airlines,FSD,4.831710709318498
+Trans States Airlines,GJT,3.2397163120567374
+Trans States Airlines,GRR,6.290657439446367
+Trans States Airlines,GSO,5.448484848484848
+Trans States Airlines,GSP,4.0
+Trans States Airlines,GTF,3.5294117647058822
+Trans States Airlines,GUC,3.0199203187250996
+Trans States Airlines,HDN,2.9136276391554703
+Trans States Airlines,HLN,6.115384615384615
+Trans States Airlines,HPN,4.773755656108597
+Trans States Airlines,HSV,5.5250917992656055
+Trans States Airlines,IAD,6.847583643122676
+Trans States Airlines,ICT,3.7343234323432344
+Trans States Airlines,IDA,4.0071942446043165
+Trans States Airlines,ILM,4.454545454545454
+Trans States Airlines,IND,6.130952380952381
+Trans States Airlines,ISN,5.648199445983379
+Trans States Airlines,JAX,4.777777777777778
+Trans States Airlines,JFK,10.372413793103448
+Trans States Airlines,LAN,3.4285714285714284
+Trans States Airlines,LBB,4.7034220532319395
+Trans States Airlines,LGA,4.2
+Trans States Airlines,LIT,6.475972540045767
+Trans States Airlines,LNK,3.9957746478873237
+Trans States Airlines,MAF,6.515625
+Trans States Airlines,MCI,5.066666666666666
+Trans States Airlines,MDT,4.294117647058823
+Trans States Airlines,MEM,5.625
+Trans States Airlines,MKE,5.466101694915254
+Trans States Airlines,MLI,6.107305936073059
+Trans States Airlines,MOT,5.716981132075472
+Trans States Airlines,MSN,4.019417475728155
+Trans States Airlines,MSO,4.742857142857143
+Trans States Airlines,MTJ,4.204951856946355
+Trans States Airlines,OKC,5.356435643564357
+Trans States Airlines,OMA,3.737913486005089
+Trans States Airlines,ORD,13.026009671938308
+Trans States Airlines,ORF,2.0
+Trans States Airlines,PIA,3.466386554621849
+Trans States Airlines,PIT,5.504901960784314
+Trans States Airlines,PVD,4.198083067092652
+Trans States Airlines,PWM,3.576923076923077
+Trans States Airlines,RAP,5.766019417475728
+Trans States Airlines,RDU,7.622159090909091
+Trans States Airlines,RIC,7.105
+Trans States Airlines,ROA,7.398989898989899
+Trans States Airlines,ROC,5.911111111111111
+Trans States Airlines,SAF,4.148717948717949
+Trans States Airlines,SAV,5.0627450980392155
+Trans States Airlines,SBN,5.961538461538462
+Trans States Airlines,SDF,8.010445299615172
+Trans States Airlines,SGF,6.422535211267606
+Trans States Airlines,STL,5.7214593958415065
+Trans States Airlines,SYR,5.133333333333334
+Trans States Airlines,TUL,4.408163265306122
+Trans States Airlines,TVC,4.711462450592886
+Trans States Airlines,TYS,3.7783018867924527
+Trans States Airlines,XNA,9.151982378854626
+United Air Lines Inc.,ABQ,5.466165413533835
+United Air Lines Inc.,ALB,4.186629526462395
+United Air Lines Inc.,ANC,4.025477707006369
+United Air Lines Inc.,ATL,8.253414582895566
+United Air Lines Inc.,AUS,5.851568043138925
+United Air Lines Inc.,AVL,4.395061728395062
+United Air Lines Inc.,BDL,5.284982935153583
+United Air Lines Inc.,BGR,4.076923076923077
+United Air Lines Inc.,BIL,3.8147632311977717
+United Air Lines Inc.,BNA,7.278293773649811
+United Air Lines Inc.,BOI,3.304038004750594
+United Air Lines Inc.,BOS,6.124308588064046
+United Air Lines Inc.,BQN,6.372549019607843
+United Air Lines Inc.,BTR,5.5
+United Air Lines Inc.,BTV,4.288135593220339
+United Air Lines Inc.,BUF,3.8100147275405005
+United Air Lines Inc.,BUR,4.749266862170088
+United Air Lines Inc.,BWI,5.1912234815460625
+United Air Lines Inc.,BZN,5.286309937456567
+United Air Lines Inc.,CHS,5.732616940581543
+United Air Lines Inc.,CID,5.504055619930475
+United Air Lines Inc.,CLE,5.872105081230557
+United Air Lines Inc.,CLT,8.354874041621029
+United Air Lines Inc.,CMH,5.020501138952164
+United Air Lines Inc.,CRP,4.037735849056604
+United Air Lines Inc.,CVG,6.134573304157549
+United Air Lines Inc.,DCA,4.848472251091249
+United Air Lines Inc.,DEN,8.081679146088897
+United Air Lines Inc.,DFW,9.369504209541628
+United Air Lines Inc.,DLH,4.515625
+United Air Lines Inc.,DSM,5.367136150234741
+United Air Lines Inc.,DTW,6.960260586319218
+United Air Lines Inc.,EGE,5.51004016064257
+United Air Lines Inc.,ELP,3.847826086956522
+United Air Lines Inc.,EUG,3.979431929480901
+United Air Lines Inc.,EWR,9.22928191349244
+United Air Lines Inc.,FAI,3.2133333333333334
+United Air Lines Inc.,FAT,4.142857142857143
+United Air Lines Inc.,FCA,4.406143344709897
+United Air Lines Inc.,FLL,5.069557871022247
+United Air Lines Inc.,FSD,5.170491803278688
+United Air Lines Inc.,GEG,3.6576139670223085
+United Air Lines Inc.,GRR,4.845956354300385
+United Air Lines Inc.,GUC,3.4411764705882355
+United Air Lines Inc.,GUM,3.5651465798045603
+United Air Lines Inc.,HDN,4.53030303030303
+United Air Lines Inc.,HNL,5.842546063651591
+United Air Lines Inc.,IAD,5.676820879682403
+United Air Lines Inc.,IAH,7.46548748212319
+United Air Lines Inc.,ICT,4.191950464396285
+United Air Lines Inc.,IND,5.815809669992325
+United Air Lines Inc.,ITO,5.128440366972477
+United Air Lines Inc.,JAC,3.5720448662640205
+United Air Lines Inc.,JAX,5.261390887290168
+United Air Lines Inc.,KOA,3.4736582964057114
+United Air Lines Inc.,LAS,7.177196035408943
+United Air Lines Inc.,LAX,11.767006565162733
+United Air Lines Inc.,LGA,5.75627802690583
+United Air Lines Inc.,LIH,5.440886699507389
+United Air Lines Inc.,MAF,4.315789473684211
+United Air Lines Inc.,MCI,4.993969849246231
+United Air Lines Inc.,MCO,7.4576727964489535
+United Air Lines Inc.,MDT,4.35472972972973
+United Air Lines Inc.,MEM,5.3477633477633475
+United Air Lines Inc.,MFE,3.873456790123457
+United Air Lines Inc.,MFR,4.382621951219512
+United Air Lines Inc.,MIA,5.951612903225806
+United Air Lines Inc.,MKE,5.258823529411765
+United Air Lines Inc.,MSN,5.126089872568746
+United Air Lines Inc.,MSO,7.328502415458937
+United Air Lines Inc.,MSP,4.9951608311984055
+United Air Lines Inc.,MSY,3.955119453924915
+United Air Lines Inc.,MTJ,4.532258064516129
+United Air Lines Inc.,MYR,3.8973509933774833
+United Air Lines Inc.,OGG,5.885801423246357
+United Air Lines Inc.,OKC,5.171091445427729
+United Air Lines Inc.,OMA,3.780331373597007
+United Air Lines Inc.,ONT,3.4530075187969924
+United Air Lines Inc.,ORD,11.462279757372055
+United Air Lines Inc.,ORF,4.608108108108108
+United Air Lines Inc.,PBI,4.073098172545686
+United Air Lines Inc.,PDX,3.5704807041299933
+United Air Lines Inc.,PHL,7.084254482928028
+United Air Lines Inc.,PHX,6.133804660905996
+United Air Lines Inc.,PIT,5.339753466872111
+United Air Lines Inc.,PNS,4.0
+United Air Lines Inc.,PSP,4.940520446096654
+United Air Lines Inc.,PVD,4.107692307692307
+United Air Lines Inc.,PWM,3.4625850340136055
+United Air Lines Inc.,RDU,5.4854932301740815
+United Air Lines Inc.,RIC,6.411522633744856
+United Air Lines Inc.,RNO,4.842618384401114
+United Air Lines Inc.,ROC,6.234329797492768
+United Air Lines Inc.,RSW,4.37027206370272
+United Air Lines Inc.,SAN,3.1865200764818358
+United Air Lines Inc.,SAT,3.5578522214302684
+United Air Lines Inc.,SAV,4.636065573770492
+United Air Lines Inc.,SBA,3.74
+United Air Lines Inc.,SDF,6.923076923076923
+United Air Lines Inc.,SEA,9.61063871860787
+United Air Lines Inc.,SFO,8.705059489238836
+United Air Lines Inc.,SJC,4.795835449466734
+United Air Lines Inc.,SJU,5.954202898550725
+United Air Lines Inc.,SLC,5.886332882273343
+United Air Lines Inc.,SMF,5.107743097238895
+United Air Lines Inc.,SNA,5.486023166023166
+United Air Lines Inc.,SPN,4.088
+United Air Lines Inc.,SRQ,3.484
+United Air Lines Inc.,STL,4.5951134380453755
+United Air Lines Inc.,STT,4.115853658536586
+United Air Lines Inc.,SYR,4.3
+United Air Lines Inc.,TPA,5.110848071299262
+United Air Lines Inc.,TUL,4.358757062146893
+United Air Lines Inc.,TUS,4.636612021857924
+United Air Lines Inc.,TVC,8.764705882352942
+United Air Lines Inc.,TYS,3.551282051282051
+Virgin America,AUS,5.5120481927710845
+Virgin America,BNA,5.943820224719101
+Virgin America,BOS,9.996296296296297
+Virgin America,BWI,5.658823529411765
+Virgin America,DAL,7.056818181818182
+Virgin America,DCA,5.352173913043479
+Virgin America,DEN,8.194117647058823
+Virgin America,EWR,8.712380952380952
+Virgin America,FLL,6.829787234042553
+Virgin America,HNL,6.685393258426966
+Virgin America,IAD,5.558558558558558
+Virgin America,IND,5.174418604651163
+Virgin America,JFK,8.527054108216433
+Virgin America,KOA,10.136363636363637
+Virgin America,LAS,7.596456692913386
+Virgin America,LAX,12.55665442215315
+Virgin America,MCO,9.679775280898877
+Virgin America,MSY,7.288888888888889
+Virgin America,OGG,10.55440414507772
+Virgin America,ORD,16.135265700483092
+Virgin America,PDX,5.775800711743773
+Virgin America,PHL,8.0
+Virgin America,PSP,5.32764505119454
+Virgin America,RDU,6.101123595505618
+Virgin America,SAN,3.845824411134904
+Virgin America,SEA,10.013221153846153
+Virgin America,SFO,7.5180310133429495
